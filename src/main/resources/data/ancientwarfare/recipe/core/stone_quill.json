@@ -1,0 +1,24 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "engineering",
+  "pattern": [
+    "  F",
+    " S ",
+    "M  "
+  ],
+  "key": {
+    "S": {
+      "tag": "c:rods/wooden"
+    },
+    "F": {
+      "tag": "c:feathers"
+    },
+    "M": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:stone_quill",
+    "count": 1
+  }
+}

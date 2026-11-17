@@ -1,0 +1,29 @@
+{
+  "type": "research",
+  "name": "tactics",
+  "time": 200,
+  "dependencies": [
+    "conscription",
+    "command"
+  ],
+  "resources": [
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "minecraft:paper",
+      "count": 8
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "minecraft:charcoal",
+      "count": 4
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:strings",
+      "count": 4
+    }
+  ]
+}

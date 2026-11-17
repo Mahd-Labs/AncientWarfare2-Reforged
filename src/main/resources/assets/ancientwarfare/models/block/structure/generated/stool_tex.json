@@ -1,0 +1,6 @@
+{
+	"parent": "ancientwarfare:block/structure/stool",
+	"textures": {
+		"0": "minecraft:block/oak_planks"
+	}
+}

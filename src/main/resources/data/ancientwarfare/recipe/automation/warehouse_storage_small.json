@@ -1,0 +1,21 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "trade",
+  "pattern": [
+    "P P",
+    " C ",
+    "P P"
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "C": {
+      "tag": "c:chests"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:warehouse_storage_small",
+    "count": 1
+  }
+}

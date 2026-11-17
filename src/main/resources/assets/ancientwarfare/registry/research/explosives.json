@@ -1,0 +1,31 @@
+{
+  "type": "research",
+  "name": "explosives",
+  "time": 200,
+  "dependencies": [
+    "combustion",
+    "chemistry"
+  ],
+  "resources": [
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "minecraft:coal",
+      "count": 12
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "minecraft:charcoal",
+      "count": 8
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:sands",
+      "count": 10
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:netherracks",
+      "count": 10
+    }
+  ]
+}

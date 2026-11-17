@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"tier=light": {
+			"model": "ancientwarfare:block/automation/torque_distributor_light"
+		},
+		"tier=medium": {
+			"model": "ancientwarfare:block/automation/torque_distributor_medium"
+		},
+		"tier=heavy": {
+			"model": "ancientwarfare:block/automation/torque_distributor_heavy"
+		}
+	}
+}

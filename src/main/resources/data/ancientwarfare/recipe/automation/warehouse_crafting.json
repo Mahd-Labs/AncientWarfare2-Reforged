@@ -1,0 +1,27 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "trade",
+  "pattern": [
+    "_P_",
+    "_W_",
+    "_I_"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "W": {
+      "tag": "c:player_workstations/crafting_tables"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "_": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:warehouse_crafting",
+    "count": 1
+  }
+}

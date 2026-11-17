@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "S S",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "type": "neoforge:components",
+      "items": "ancientwarfare:coin",
+      "components": {
+        "minecraft:custom_data": "{metal:\"silver\"}"
+      },
+      "strict": false
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:coin_stack_silver",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{size:8}"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "research",
+  "name": "advanced_siege_warfare",
+  "time": 200,
+  "dependencies": [
+    "siege_warfare",
+    "machinery"
+  ],
+  "resources": [
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:ingots/steel",
+      "count": 8
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "minecraft:paper",
+      "count": 12
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "minecraft:planks",
+      "count": 16
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:strings",
+      "count": 12
+    }
+  ]
+}

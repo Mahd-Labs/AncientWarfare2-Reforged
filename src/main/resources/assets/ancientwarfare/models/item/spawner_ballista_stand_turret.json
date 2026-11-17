@@ -1,0 +1,32 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ancientwarfare:item/vehicle/ballista_stand_turret_0"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "ancientwarfare:level": 1
+      },
+      "model": "ancientwarfare:item/vehicle/spawner/ballista_stand_turret_1"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:level": 2
+      },
+      "model": "ancientwarfare:item/vehicle/spawner/ballista_stand_turret_2"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:level": 3
+      },
+      "model": "ancientwarfare:item/vehicle/spawner/ballista_stand_turret_3"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:level": 4
+      },
+      "model": "ancientwarfare:item/vehicle/spawner/ballista_stand_turret_4"
+    }
+  ]
+}

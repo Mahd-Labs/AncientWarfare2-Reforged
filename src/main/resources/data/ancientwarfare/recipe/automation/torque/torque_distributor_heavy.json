@@ -1,0 +1,21 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "mass_production",
+  "pattern": [
+    " S ",
+    "GGG",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "tag": "c:shafts/steel"
+    },
+    "G": {
+      "tag": "c:gears/steel"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:torque_distributor_heavy",
+    "count": 1
+  }
+}

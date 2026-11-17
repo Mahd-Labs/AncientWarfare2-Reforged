@@ -1,0 +1,30 @@
+{
+  "type": "research",
+  "name": "conscription",
+  "time": 200,
+  "dependencies": [
+    "leadership"
+  ],
+  "resources": [
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "minecraft:paper",
+      "count": 12
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:ingots/gold",
+      "count": 4
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "minecraft:iron_sword",
+      "count": 1
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "minecraft:golden_apple",
+      "count": 1
+    }
+  ]
+}

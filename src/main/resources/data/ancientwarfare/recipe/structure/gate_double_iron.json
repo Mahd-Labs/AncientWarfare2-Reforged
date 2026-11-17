@@ -1,0 +1,24 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "construction",
+  "pattern": [
+    "SSS",
+    "PPP",
+    "PRP"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:ingots/iron"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "S": {
+      "tag": "c:stones"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:gate_spawner_9",
+    "count": 1
+  }
+}

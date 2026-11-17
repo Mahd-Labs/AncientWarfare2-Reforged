@@ -1,0 +1,21 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "leadership",
+  "pattern": [
+    "  S",
+    " S ",
+    "I  "
+  ],
+  "key": {
+    "S": {
+      "tag": "c:rods/wooden"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:bard_instrument_flute",
+    "count": 1
+  }
+}

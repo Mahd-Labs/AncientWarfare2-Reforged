@@ -1,0 +1,30 @@
+{
+  "type": "research",
+  "name": "chemistry",
+  "time": 200,
+  "dependencies": [
+    "mining"
+  ],
+  "resources": [
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:dusts/redstone",
+      "count": 32
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:dyes/blue",
+      "count": 16
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:ingots/gold",
+      "count": 2
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:netherracks",
+      "count": 8
+    }
+  ]
+}

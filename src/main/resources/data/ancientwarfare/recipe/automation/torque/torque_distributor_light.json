@@ -1,0 +1,21 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "the_wheel",
+  "pattern": [
+    " S ",
+    "GGG",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "tag": "c:shafts/wooden"
+    },
+    "G": {
+      "tag": "c:gears/wooden"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:torque_distributor_light",
+    "count": 1
+  }
+}

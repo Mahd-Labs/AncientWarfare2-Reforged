@@ -1,0 +1,26 @@
+{
+  "type": "ancientwarfare:research_shapeless",
+  "research": "advanced_siege_warfare",
+  "ingredients": [
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "ancientwarfare:rough_iron",
+      "count": 5
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "ancientwarfare:powder_case",
+      "count": 2
+    },
+    {
+      "item": "ancientwarfare:equipment_bay"
+    }
+  ],
+  "result": {
+    "id": "ancientwarfare:spawner_cannon_stand",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{spawnData:{level:0}}"
+    }
+  }
+}

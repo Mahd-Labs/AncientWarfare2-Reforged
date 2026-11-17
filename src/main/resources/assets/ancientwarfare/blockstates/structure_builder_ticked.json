@@ -1,0 +1,9 @@
+{
+	"multipart": [
+		{
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/cube_bottom_top_tex"
+			}
+		}
+	]
+}

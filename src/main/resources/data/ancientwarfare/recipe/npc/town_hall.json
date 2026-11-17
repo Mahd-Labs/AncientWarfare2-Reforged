@@ -1,0 +1,24 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "leadership",
+  "pattern": [
+    "S S",
+    "_C_",
+    "S_S"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:chests"
+    },
+    "S": {
+      "item": "minecraft:stone_bricks"
+    },
+    "_": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:town_hall",
+    "count": 1
+  }
+}

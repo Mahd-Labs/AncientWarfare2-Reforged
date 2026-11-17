@@ -1,0 +1,100 @@
+{
+  "type": "manual_content",
+  "lang": "en_US",
+  "category": "vehicles",
+  "content": [
+    {
+      "content_type": "heading",
+      "text": "Vehicles",
+      "level": 1
+    },
+    {
+      "content_type": "heading",
+      "text": "Introduction",
+      "level": 2
+    },
+    {
+      "content_type": "text",
+      "text": "Ancient Warfare provides a vehicles for both combat and civilian use, allowing you to destroy your rival’s castle or transport your items with great ease. \nCombat Vehicles tend to come in three variations, or a mix of the variations. These variations are Fixed, Mobile, and Turret. Fixed means the vehicle cannot be moved without repacking, and is harder to turn. Mobile means the vehicle has wheels, and can be moved about without repacking. Turret means that the vehicle’s weapon is capable of moving independently of movement, and is also easier to turn. These variations can mix, such as Fixed Turreted or Turreted Mobile, or even “Fixed” Mobile. Vehicle variations also come in four Material Levels. Each level increases the hitpoints of the vehicle, and also enables it to fire heavier ammos. \nEvery vehicle will take some amount of time to setup once placed. Once the setup is complete, the Vehicles GUI can be accessed by Shift Right-Clicking, where you can repack the vehicle and place Ammo, Armor, and Upgrades.  Most Combat Vehicles require ammunition to be loaded into them in order to fire. The Vehicle controls can be found in the Key Binding Menu, and by default the “Attack key” is the space bar."
+    },
+    {
+      "content_type": "text",
+      "text": "\n\n\n\n\n\n\n "
+    },
+    {
+      "content_type": "heading",
+      "text": "Catapults",
+      "level": 2
+    },
+    {
+      "content_type": "text",
+      "text": "Catapults are the classic rock launcher, using very simply torsion mechanics. Catapults take Stone Shots, Flame Shots, Explosive Shots, Napalm Shots, Cluster Shot, and Pebble Shot as ammo. Catapults come in Fixed, Fixed Turret, Fixed Mobile, and Mobile Turret variations. Catapults can make use of Armor upgrades, and all of the various Upgrades, where applicable."
+    },
+    {
+      "content_type": "image",
+      "path": "/images/Catapult1.jpg",
+      "width": 756,
+      "height": 413
+    },
+    {
+      "content_type": "heading",
+      "text": "Trebuchets",
+      "level": 2
+    },
+    {
+      "content_type": "text",
+      "text": "Trebuchets are marvels of engineering launching projectiles at high speeds over long distances. Trebuchets take Stone Shots, Flame Shots, Explosive Shots, Napalm Shots, Cluster Shot, and Pebble Shot as ammo. Trebuchets come in Fixed, Fixed Turret, Mobile Fixed, and Giant Trebuchet variations. All of the Armor upgrades, and the Upgrades can be used where applicable."
+    },
+    {
+      "content_type": "image",
+      "path": "/images/Trebuchet1.jpg",
+      "width": 756,
+      "height": 413
+    },
+    {
+      "content_type": "heading",
+      "text": "Ballistas",
+      "level": 2
+    },
+    {
+      "content_type": "text",
+      "text": "Ballistas are enormous crossbows, taking the idea of the bow and making use of high torsion arms to launch huge Bolts across huge distances. Ballista come in Fixed, Fixed Turret, Fixed Mobile, and Mobile Turret variations. Ballistas take Ballista Bolts, Ballista Flame Bolts, Ballista Explosive Bolts as ammo. All of the Armor upgrades, and the Upgrades can be used where applicable. "
+    },
+    {
+      "content_type": "image",
+      "path": "/images/Ballista1.jpg",
+      "width": 756,
+      "height": 414
+    },
+    {
+      "content_type": "heading",
+      "text": "Cannons",
+      "level": 2
+    },
+    {
+      "content_type": "text",
+      "text": "Cannons make use of gunpowder harvested from the mysterious Creepers, whose explosive power is greatly feared, to launch iron cannonballs at tremendous speeds. Cannons come in Fixed, Turret, Mobile Fixed variations. Cannons can make use Iron Shots, Canister Shots, and Grapeshot as ammo. All of the Armor upgrades, and the Upgrades can be used where applicable."
+    },
+    {
+      "content_type": "image",
+      "path": "/images/Cannons1.jpg",
+      "width": 756,
+      "height": 413
+    },
+    {
+      "content_type": "heading",
+      "text": "Hwachas",
+      "level": 2
+    },
+    {
+      "content_type": "text",
+      "text": "The Hwacha also makes use of gunpowder in the form of rockets. The Hwacha can rapidly launch rockets to cover a great deal of area in damage. Hwachas make use of Standard Rockets, Flame Rockets, Explosive Rockets, and Airburst Rockets as ammo. Hwachas only come in the four material levels, and are Mobile Fixed units. All of the Armor upgrades, and the Upgrades can be used where applicable."
+    },
+    {
+      "content_type": "image",
+      "path": "/images/Hwacha1.jpg",
+      "width": 756,
+      "height": 413
+    }
+  ]
+}

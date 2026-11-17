@@ -1,0 +1,27 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "construction",
+  "pattern": [
+    "_P_",
+    "_W_",
+    "_S_"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "W": {
+      "tag": "c:player_workstations/crafting_tables"
+    },
+    "_": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:drafting_station",
+    "count": 1
+  }
+}

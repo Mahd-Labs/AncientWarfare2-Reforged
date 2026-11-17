@@ -1,0 +1,24 @@
+{
+  "type": "ancientwarfare:research_shapeless",
+  "research": "siege_warfare",
+  "ingredients": [
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "ancientwarfare:iron_core_wood",
+      "count": 4
+    },
+    {
+      "item": "ancientwarfare:powder_case"
+    },
+    {
+      "item": "ancientwarfare:equipment_bay"
+    }
+  ],
+  "result": {
+    "id": "ancientwarfare:spawner_hwacha",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{spawnData:{level:3}}"
+    }
+  }
+}

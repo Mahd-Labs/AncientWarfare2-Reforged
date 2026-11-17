@@ -1,0 +1,68 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"size": "8"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/coin_stack_8_tex_3"
+			}
+		},
+		{
+			"when": {
+				"size": "16"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/coin_stack_16_tex_3"
+			}
+		},
+		{
+			"when": {
+				"size": "24"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/coin_stack_24_tex_3"
+			}
+		},
+		{
+			"when": {
+				"size": "32"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/coin_stack_32_tex_3"
+			}
+		},
+		{
+			"when": {
+				"size": "40"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/coin_stack_40_tex_3"
+			}
+		},
+		{
+			"when": {
+				"size": "48"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/coin_stack_48_tex_3"
+			}
+		},
+		{
+			"when": {
+				"size": "56"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/coin_stack_56_tex_3"
+			}
+		},
+		{
+			"when": {
+				"size": "64"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/coin_stack_64_tex_3"
+			}
+		}
+	]
+}

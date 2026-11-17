@@ -1,0 +1,21 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "mass_production",
+  "pattern": [
+    "S",
+    "S",
+    "G"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:shafts/steel"
+    },
+    "G": {
+      "tag": "c:gears/steel"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:torque_shaft_heavy",
+    "count": 1
+  }
+}

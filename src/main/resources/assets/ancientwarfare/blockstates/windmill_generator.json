@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "ancientwarfare:block/automation/windmill_generator"
+		}
+	}
+}

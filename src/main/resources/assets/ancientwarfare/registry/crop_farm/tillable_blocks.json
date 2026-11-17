@@ -1,0 +1,9 @@
+{
+	"tillable_mapping": [
+		{ "tillable": "minecraft:grass_block", "tilled": "minecraft:farmland" },
+		{ "tillable": "minecraft:dirt", "tilled": "minecraft:farmland" },
+		{ "tillable": "minecraft:coarse_dirt", "tilled": "minecraft:farmland" },
+		{ "tillable": "minecraft:podzol", "tilled": "minecraft:farmland" },
+		{ "tillable": "minecraft:dirt_path", "tilled": "minecraft:farmland" }
+	]
+}

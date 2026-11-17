@@ -1,0 +1,13 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"particle": "ancientwarfare:block/structure/goblin_totem_front_2_lit",
+		"down": "minecraft:block/stone",
+		"up": "ancientwarfare:block/structure/totem_top_2",
+		"north": "ancientwarfare:block/structure/goblin_totem_front_2_lit",
+		"west": "ancientwarfare:block/structure/totem_side_2",
+		"south": "ancientwarfare:block/structure/goblin_totem_front_2_lit",
+		"east": "ancientwarfare:block/structure/totem_side_2"
+	},
+	"render_type": "minecraft:cutout"
+}

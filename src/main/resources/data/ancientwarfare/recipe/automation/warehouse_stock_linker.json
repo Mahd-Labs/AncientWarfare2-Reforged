@@ -1,0 +1,24 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "trade",
+  "pattern": [
+    "R",
+    "P",
+    "S"
+  ],
+  "key": {
+    "R": {
+      "item": "ancientwarfare:routing_order"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "S": {
+      "item": "minecraft:oak_sign"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:warehouse_stock_linker",
+    "count": 1
+  }
+}

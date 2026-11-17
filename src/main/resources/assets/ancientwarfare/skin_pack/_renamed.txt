@@ -1,0 +1,10 @@
+Custom_monster_puppet.png -> custom_monster_puppet.png
+OzCowardlyLion.png -> ozcowardlylion.png
+custom_adventurer_wood_ elf_lord.png -> custom_adventurer_wood__elf_lord.png
+custom_earth elemental.png -> custom_earth_elemental.png
+custom_god_ the_god_of_minecraft.png -> custom_god__the_god_of_minecraft.png
+custom_god_norska_aegir of the sea.png -> custom_god_norska_aegir_of_the_sea.png
+custom_god_the seer.png -> custom_god_the_seer.png
+custom_royal_court_young queen.png -> custom_royal_court_young_queen.png
+custom_wizard_smelly brown.png -> custom_wizard_smelly_brown.png
+klown_IT_2.png -> klown_it_2.png

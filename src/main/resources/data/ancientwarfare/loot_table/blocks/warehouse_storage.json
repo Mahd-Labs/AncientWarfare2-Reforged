@@ -1,0 +1,59 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "ancientwarfare:warehouse_storage_small",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "ancientwarfare:warehouse_storage",
+									"properties": {
+										"size": "small"
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "ancientwarfare:warehouse_storage_medium",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "ancientwarfare:warehouse_storage",
+									"properties": {
+										"size": "medium"
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "ancientwarfare:warehouse_storage_large",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "ancientwarfare:warehouse_storage",
+									"properties": {
+										"size": "large"
+									}
+								}
+							]
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

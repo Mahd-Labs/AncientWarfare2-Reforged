@@ -1,0 +1,30 @@
+{
+  "type": "research",
+  "name": "machinery",
+  "time": 200,
+  "dependencies": [
+    "theory_of_gravity"
+  ],
+  "resources": [
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:ingots/steel",
+      "count": 10
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:ingots/iron",
+      "count": 8
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:gears/iron",
+      "count": 3
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:bearings/iron",
+      "count": 2
+    }
+  ]
+}

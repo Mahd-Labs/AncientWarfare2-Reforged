@@ -1,0 +1,21 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "mass_production",
+  "pattern": [
+    "GPG",
+    "PPP",
+    "GGG"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:ingots/steel"
+    },
+    "G": {
+      "tag": "c:glass_panes"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:flywheel_storage_heavy",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "research",
+  "name": "animal_husbandry",
+  "time": 200,
+  "dependencies": [
+    "agriculture"
+  ],
+  "resources": [
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:crops/wheat",
+      "count": 12
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:leathers",
+      "count": 4
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:strings",
+      "count": 12
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "minecraft:torch",
+      "count": 4
+    }
+  ]
+}

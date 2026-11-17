@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ##",
+    "#S#",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "tag": "c:rods/wooden"
+    },
+    "#": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:iron_halberd",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "## ",
+    "#S ",
+    "  S"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:rods/wooden"
+    },
+    "#": {
+      "tag": "c:ingots/gold"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:golden_spear",
+    "count": 1
+  }
+}

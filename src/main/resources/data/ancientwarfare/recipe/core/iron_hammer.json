@@ -1,0 +1,21 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "engineering",
+  "pattern": [
+    "MSM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "tag": "c:rods/wooden"
+    },
+    "M": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:iron_hammer",
+    "count": 1
+  }
+}

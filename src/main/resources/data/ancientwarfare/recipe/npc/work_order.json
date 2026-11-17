@@ -1,0 +1,24 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "leadership",
+  "pattern": [
+    "D",
+    "P",
+    "W"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "D": {
+      "tag": "c:dyes/gray"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:work_order",
+    "count": 1
+  }
+}

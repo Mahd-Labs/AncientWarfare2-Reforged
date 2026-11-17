@@ -1,0 +1,23 @@
+{
+  "type": "ancientwarfare:research_shapeless",
+  "research": "engineering",
+  "ingredients": [
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:leathers",
+      "count": 2
+    },
+    {
+      "tag": "c:ingots/iron"
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "minecraft:planks",
+      "count": 5
+    }
+  ],
+  "result": {
+    "id": "ancientwarfare:treated_wood",
+    "count": 8
+  }
+}

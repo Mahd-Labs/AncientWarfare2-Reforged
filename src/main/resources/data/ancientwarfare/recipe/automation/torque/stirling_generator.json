@@ -1,0 +1,21 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "machinery",
+  "pattern": [
+    "III",
+    "GGG",
+    "IGI"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:gears/iron"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:stirling_generator",
+    "count": 1
+  }
+}

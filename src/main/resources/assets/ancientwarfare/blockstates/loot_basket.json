@@ -1,0 +1,176 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"facing": "north",
+				"double": "true",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/double_loot_basket"
+			}
+		},
+		{
+			"when": {
+				"facing": "north",
+				"double": "true",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/invisible_basket"
+			}
+		},
+		{
+			"when": {
+				"facing": "north",
+				"double": "false",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/loot_basket"
+			}
+		},
+		{
+			"when": {
+				"facing": "north",
+				"double": "false",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/invisible_basket"
+			}
+		},
+		{
+			"when": {
+				"facing": "south",
+				"double": "true",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/double_loot_basket",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"facing": "south",
+				"double": "true",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/invisible_basket",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"facing": "south",
+				"double": "false",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/loot_basket",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"facing": "south",
+				"double": "false",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/invisible_basket",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"facing": "west",
+				"double": "true",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/double_loot_basket",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"facing": "west",
+				"double": "true",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/invisible_basket",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"facing": "west",
+				"double": "false",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/loot_basket",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"facing": "west",
+				"double": "false",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/invisible_basket",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"facing": "east",
+				"double": "true",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/double_loot_basket",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"facing": "east",
+				"double": "true",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/invisible_basket",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"facing": "east",
+				"double": "false",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/loot_basket",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"facing": "east",
+				"double": "false",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/invisible_basket",
+				"y": 90
+			}
+		}
+	]
+}

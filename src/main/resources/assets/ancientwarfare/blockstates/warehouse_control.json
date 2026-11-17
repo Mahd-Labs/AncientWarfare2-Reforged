@@ -1,0 +1,34 @@
+{
+	"variants": {
+		"active=false,facing=east": {
+			"model": "ancientwarfare:block/automation/warehouse_control",
+			"y": 90
+		},
+		"active=false,facing=north": {
+			"model": "ancientwarfare:block/automation/warehouse_control"
+		},
+		"active=false,facing=south": {
+			"model": "ancientwarfare:block/automation/warehouse_control",
+			"y": 180
+		},
+		"active=false,facing=west": {
+			"model": "ancientwarfare:block/automation/warehouse_control",
+			"y": 270
+		},
+		"active=true,facing=east": {
+			"model": "ancientwarfare:block/automation/warehouse_control",
+			"y": 90
+		},
+		"active=true,facing=north": {
+			"model": "ancientwarfare:block/automation/warehouse_control"
+		},
+		"active=true,facing=south": {
+			"model": "ancientwarfare:block/automation/warehouse_control",
+			"y": 180
+		},
+		"active=true,facing=west": {
+			"model": "ancientwarfare:block/automation/warehouse_control",
+			"y": 270
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:fire_pit",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{variant:\"log\",lit:0b}"
+    }
+  }
+}

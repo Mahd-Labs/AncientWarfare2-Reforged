@@ -1,0 +1,28 @@
+{
+  "type": "research",
+  "name": "theory_of_gravity",
+  "time": 200,
+  "dependencies": [
+    "the_wheel",
+    "construction",
+    "mathematics"
+  ],
+  "resources": [
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:ingots/iron",
+      "count": 8
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:strings",
+      "count": 8
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:apple"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "ancientwarfare:backpack": {
+    "0": "ancientwarfare:backpack_0",
+    "1": "ancientwarfare:backpack_1",
+    "2": "ancientwarfare:backpack_2",
+    "3": "ancientwarfare:backpack_3"
+  },
+  "ancientwarfare:component": {
+    "0": "ancientwarfare:component_wooden_gear",
+    "1": "ancientwarfare:component_iron_gear",
+    "2": "ancientwarfare:component_steel_gear",
+    "3": "ancientwarfare:component_wooden_bearings",
+    "4": "ancientwarfare:component_iron_bearings",
+    "5": "ancientwarfare:component_steel_bearings",
+    "6": "ancientwarfare:component_wooden_shaft",
+    "7": "ancientwarfare:component_iron_shaft",
+    "8": "ancientwarfare:component_steel_shaft"
+  },
+  "ancientwarfare:torque_junction": {
+    "0": "ancientwarfare:torque_junction_light",
+    "1": "ancientwarfare:torque_junction_medium",
+    "2": "ancientwarfare:torque_junction_heavy"
+  },
+  "ancientwarfare:torque_shaft": {
+    "0": "ancientwarfare:torque_shaft_light",
+    "1": "ancientwarfare:torque_shaft_medium",
+    "2": "ancientwarfare:torque_shaft_heavy"
+  },
+  "ancientwarfare:torque_distributor": {
+    "0": "ancientwarfare:torque_distributor_light",
+    "1": "ancientwarfare:torque_distributor_medium",
+    "2": "ancientwarfare:torque_distributor_heavy"
+  },
+  "ancientwarfare:flywheel_controller": {
+    "0": "ancientwarfare:flywheel_controller_light",
+    "1": "ancientwarfare:flywheel_controller_medium",
+    "2": "ancientwarfare:flywheel_controller_heavy"
+  },
+  "ancientwarfare:flywheel_storage": {
+    "0": "ancientwarfare:flywheel_storage_light",
+    "1": "ancientwarfare:flywheel_storage_medium",
+    "2": "ancientwarfare:flywheel_storage_heavy"
+  },
+  "ancientwarfare:warehouse_storage": {
+    "0": "ancientwarfare:warehouse_storage_small",
+    "1": "ancientwarfare:warehouse_storage_medium",
+    "2": "ancientwarfare:warehouse_storage_large"
+  },
+  "ancientwarfare:worksite_upgrade": {
+    "0": "ancientwarfare:worksite_upgrade_bounds_medium",
+    "1": "ancientwarfare:worksite_upgrade_bounds_large",
+    "2": "ancientwarfare:worksite_upgrade_quarry_medium",
+    "3": "ancientwarfare:worksite_upgrade_quarry_large",
+    "4": "ancientwarfare:worksite_upgrade_enchanted_tools_1",
+    "5": "ancientwarfare:worksite_upgrade_enchanted_tools_2",
+    "6": "ancientwarfare:worksite_upgrade_quality_tools_1",
+    "7": "ancientwarfare:worksite_upgrade_quality_tools_2",
+    "8": "ancientwarfare:worksite_upgrade_quality_tools_3",
+    "9": "ancientwarfare:worksite_upgrade_chunkloader_basic",
+    "10": "ancientwarfare:worksite_upgrade_chunkloader_quarry"
+  },
+  "ancientwarfare:gate_spawner": {
+    "0": "ancientwarfare:gate_spawner_0",
+    "1": "ancientwarfare:gate_spawner_1",
+    "4": "ancientwarfare:gate_spawner_4",
+    "5": "ancientwarfare:gate_spawner_5",
+    "8": "ancientwarfare:gate_spawner_8",
+    "9": "ancientwarfare:gate_spawner_9",
+    "12": "ancientwarfare:gate_spawner_12"
+  },
+  "minecraft:stone": {
+    "0": "minecraft:stone"
+  },
+  "ancientwarfare:spawner": {
+    "0": "ancientwarfare:spawner_catapult_stand",
+    "1": "ancientwarfare:spawner_catapult_stand_turret",
+    "4": "ancientwarfare:spawner_ballista_stand",
+    "5": "ancientwarfare:spawner_ballista_stand_turret",
+    "9": "ancientwarfare:spawner_cannon_stand",
+    "10": "ancientwarfare:spawner_cannon_stand_turret",
+    "12": "ancientwarfare:spawner_hwacha",
+    "13": "ancientwarfare:spawner_trebuchet_stand",
+    "14": "ancientwarfare:spawner_trebuchet_stand_turret",
+    "16": "ancientwarfare:spawner_trebuchet_giant"
+  }
+}

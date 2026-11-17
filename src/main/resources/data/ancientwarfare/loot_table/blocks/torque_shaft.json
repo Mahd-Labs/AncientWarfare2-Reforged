@@ -1,0 +1,59 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "ancientwarfare:torque_shaft_light",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "ancientwarfare:torque_shaft",
+									"properties": {
+										"tier": "light"
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "ancientwarfare:torque_shaft_medium",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "ancientwarfare:torque_shaft",
+									"properties": {
+										"tier": "medium"
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "ancientwarfare:torque_shaft_heavy",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "ancientwarfare:torque_shaft",
+									"properties": {
+										"tier": "heavy"
+									}
+								}
+							]
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

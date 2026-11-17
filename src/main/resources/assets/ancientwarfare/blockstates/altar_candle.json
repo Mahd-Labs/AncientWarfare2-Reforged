@@ -1,0 +1,9 @@
+{
+	"multipart": [
+		{
+			"apply": {
+				"model": "ancientwarfare:block/structure/altar_candle"
+			}
+		}
+	]
+}

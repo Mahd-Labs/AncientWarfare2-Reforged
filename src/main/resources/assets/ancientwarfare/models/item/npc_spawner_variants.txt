@@ -1,0 +1,20 @@
+# index<TAB>variant key (1.12 NpcDeclaration.getItemModelVariant(subType): the sub type if not empty, else the itemModelVariant of the declaration)
+# the item property ancientwarfare:npc_variant returns index / 100.0f; index 0 is the base model npc_spawner.json
+0	siege_engineer
+1	archer
+2	bard
+3	commander
+4	courier
+5	craftsman
+6	engineer
+7	farmer
+8	lumberjack
+9	medic
+10	miner
+11	priest
+12	researcher
+13	trader
+14	soldier
+15	civilian_female
+16	civilian_male
+17	spellcaster

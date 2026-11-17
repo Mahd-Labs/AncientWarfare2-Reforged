@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "entries": [
+    "ancientwarfare:inject_abandoned_mineshaft",
+    "ancientwarfare:inject_desert_pyramid",
+    "ancientwarfare:inject_igloo_chest",
+    "ancientwarfare:inject_jungle_temple",
+    "ancientwarfare:inject_simple_dungeon",
+    "ancientwarfare:inject_stronghold_corridor",
+    "ancientwarfare:inject_village_blacksmith"
+  ]
+}

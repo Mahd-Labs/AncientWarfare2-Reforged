@@ -1,0 +1,37 @@
+{
+  "type": "ancientwarfare:research_shapeless",
+  "research": "advanced_siege_warfare",
+  "ingredients": [
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "ancientwarfare:rough_iron",
+      "count": 8
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:strings",
+      "count": 8
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:leathers",
+      "count": 4
+    },
+    {
+      "item": "ancientwarfare:counter_weight_unit"
+    },
+    {
+      "item": "ancientwarfare:equipment_bay"
+    },
+    {
+      "item": "ancientwarfare:turret_components"
+    }
+  ],
+  "result": {
+    "id": "ancientwarfare:spawner_trebuchet_stand_turret",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{spawnData:{level:4}}"
+    }
+  }
+}

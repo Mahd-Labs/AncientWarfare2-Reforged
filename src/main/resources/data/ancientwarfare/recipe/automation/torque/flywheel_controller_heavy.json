@@ -1,0 +1,21 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "mass_production",
+  "pattern": [
+    "IGI",
+    "III",
+    "IGI"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:gears/steel"
+    },
+    "I": {
+      "tag": "c:ingots/steel"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:flywheel_controller_heavy",
+    "count": 1
+  }
+}

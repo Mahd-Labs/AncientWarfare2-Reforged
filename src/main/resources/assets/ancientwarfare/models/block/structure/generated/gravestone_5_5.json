@@ -1,0 +1,6 @@
+{
+	"parent": "ancientwarfare:block/structure/gravestone_5",
+	"textures": {
+		"0": "ancientwarfare:block/structure/gravestone_5"
+	}
+}

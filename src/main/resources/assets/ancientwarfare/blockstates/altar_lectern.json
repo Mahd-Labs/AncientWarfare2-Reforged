@@ -1,0 +1,39 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"facing": "north"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/altar_lectern"
+			}
+		},
+		{
+			"when": {
+				"facing": "south"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/altar_lectern",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"facing": "west"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/altar_lectern",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"facing": "east"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/altar_lectern",
+				"y": 90
+			}
+		}
+	]
+}

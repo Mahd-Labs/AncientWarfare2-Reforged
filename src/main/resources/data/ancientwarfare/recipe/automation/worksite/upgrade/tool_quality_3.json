@@ -1,0 +1,30 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "refining",
+  "pattern": [
+    "OTO",
+    "PSA",
+    "OTO"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "A": {
+      "item": "minecraft:diamond_axe"
+    },
+    "S": {
+      "item": "minecraft:diamond_shovel"
+    },
+    "T": {
+      "tag": "c:ingots/steel"
+    },
+    "O": {
+      "tag": "c:obsidians"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:worksite_upgrade_quality_tools_3",
+    "count": 1
+  }
+}

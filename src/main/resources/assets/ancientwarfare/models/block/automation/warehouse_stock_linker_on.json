@@ -1,0 +1,7 @@
+{
+	"parent": "ancientwarfare:block/automation/warehouse_stock_linker_template",
+	"textures": {
+		"texture": "ancientwarfare:block/automation/warehouse_stock_linker_on",
+		"particle": "ancientwarfare:block/automation/warehouse_stock_linker_on"
+	}
+}

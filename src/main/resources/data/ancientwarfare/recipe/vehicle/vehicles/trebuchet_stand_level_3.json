@@ -1,0 +1,34 @@
+{
+  "type": "ancientwarfare:research_shapeless",
+  "research": "siege_warfare",
+  "ingredients": [
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "ancientwarfare:iron_core_wood",
+      "count": 8
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:strings",
+      "count": 8
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:leathers",
+      "count": 4
+    },
+    {
+      "item": "ancientwarfare:counter_weight_unit"
+    },
+    {
+      "item": "ancientwarfare:equipment_bay"
+    }
+  ],
+  "result": {
+    "id": "ancientwarfare:spawner_trebuchet_stand",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{spawnData:{level:3}}"
+    }
+  }
+}

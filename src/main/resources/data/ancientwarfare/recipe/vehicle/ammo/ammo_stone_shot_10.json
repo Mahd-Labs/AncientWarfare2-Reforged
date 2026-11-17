@@ -1,0 +1,13 @@
+{
+  "type": "ancientwarfare:research_shapeless",
+  "research": "ballistics",
+  "ingredients": [
+    {
+      "item": "ancientwarfare:clay_casing"
+    }
+  ],
+  "result": {
+    "id": "ancientwarfare:ammo_stone_shot_10",
+    "count": 10
+  }
+}

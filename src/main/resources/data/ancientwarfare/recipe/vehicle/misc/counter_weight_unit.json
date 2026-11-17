@@ -1,0 +1,25 @@
+{
+  "type": "ancientwarfare:research_shapeless",
+  "research": "theory_of_gravity",
+  "ingredients": [
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:ingots/iron",
+      "count": 2
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:cobblestones",
+      "count": 4
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:strings",
+      "count": 4
+    }
+  ],
+  "result": {
+    "id": "ancientwarfare:counter_weight_unit",
+    "count": 1
+  }
+}

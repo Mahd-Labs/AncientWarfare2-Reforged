@@ -1,0 +1,21 @@
+{
+  "type": "ancientwarfare:research_shapeless",
+  "research": "explosives",
+  "ingredients": [
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:gunpowders",
+      "count": 2
+    },
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "tag": "c:strings"
+    }
+  ],
+  "result": {
+    "id": "ancientwarfare:explosive_charge",
+    "count": 8
+  }
+}

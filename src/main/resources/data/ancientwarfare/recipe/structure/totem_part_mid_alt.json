@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "B W",
+    "ELR"
+  ],
+  "key": {
+    "B": {
+      "tag": "c:dyes/black"
+    },
+    "W": {
+      "tag": "c:dyes/white"
+    },
+    "R": {
+      "tag": "c:dyes/red"
+    },
+    "E": {
+      "tag": "c:dyes/blue"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:totem_part",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{variant:2b}"
+    }
+  }
+}

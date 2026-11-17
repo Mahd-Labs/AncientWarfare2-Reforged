@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ancientwarfare:item/vehicle/trebuchet_stand_turret_2"
+  }
+}

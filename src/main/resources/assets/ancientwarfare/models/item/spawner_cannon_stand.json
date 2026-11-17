@@ -1,0 +1,32 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ancientwarfare:item/vehicle/cannon_stand_0"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "ancientwarfare:level": 1
+      },
+      "model": "ancientwarfare:item/vehicle/spawner/cannon_stand_1"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:level": 2
+      },
+      "model": "ancientwarfare:item/vehicle/spawner/cannon_stand_2"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:level": 3
+      },
+      "model": "ancientwarfare:item/vehicle/spawner/cannon_stand_3"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:level": 4
+      },
+      "model": "ancientwarfare:item/vehicle/spawner/cannon_stand_4"
+    }
+  ]
+}

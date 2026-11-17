@@ -1,0 +1,30 @@
+{
+  "type": "research",
+  "name": "refining",
+  "time": 200,
+  "dependencies": [
+    "chemistry"
+  ],
+  "resources": [
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:ingots/iron",
+      "count": 12
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "minecraft:paper",
+      "count": 10
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:ingots/gold",
+      "count": 2
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "minecraft:coal",
+      "count": 12
+    }
+  ]
+}

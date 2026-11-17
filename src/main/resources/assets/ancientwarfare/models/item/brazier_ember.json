@@ -1,0 +1,11 @@
+{
+	"parent": "ancientwarfare:block/structure/brazier_ember_off",
+	"overrides": [
+		{
+			"predicate": {
+				"ancientwarfare:variant": 1
+			},
+			"model": "ancientwarfare:item/brazier_ember_variant_1"
+		}
+	]
+}

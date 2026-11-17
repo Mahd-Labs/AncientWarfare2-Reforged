@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "## ",
+    "#S ",
+    "  S"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:rods/wooden"
+    },
+    "#": {
+      "tag": "c:gems/diamond"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:diamond_spear",
+    "count": 1
+  }
+}

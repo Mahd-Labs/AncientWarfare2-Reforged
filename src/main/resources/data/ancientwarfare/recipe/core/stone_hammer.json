@@ -1,0 +1,21 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "engineering",
+  "pattern": [
+    "MSM",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "tag": "c:rods/wooden"
+    },
+    "M": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:stone_hammer",
+    "count": 1
+  }
+}

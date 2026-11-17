@@ -1,0 +1,20 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"transparent": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/advanced_spawner_tex"
+			}
+		},
+		{
+			"when": {
+				"transparent": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/cube_all_true"
+			}
+		}
+	]
+}

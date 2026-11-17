@@ -1,0 +1,23 @@
+{
+	"parent": "minecraft:block/block",
+	"loader": "neoforge:composite",
+	"children": {
+		"part0": {
+			"parent": "ancientwarfare:block/structure/totem_part_irminsul_top",
+			"transform": {
+				"rotation": [
+					{
+						"y": -270
+					},
+					{
+						"x": 0
+					}
+				],
+				"origin": "center"
+			}
+		}
+	},
+	"textures": {
+		"particle": "minecraft:block/oak_planks"
+	}
+}

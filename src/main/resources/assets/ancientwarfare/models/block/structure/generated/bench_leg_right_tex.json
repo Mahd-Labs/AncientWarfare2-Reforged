@@ -1,0 +1,6 @@
+{
+	"parent": "ancientwarfare:block/structure/bench_leg_right",
+	"textures": {
+		"0": "minecraft:block/oak_planks"
+	}
+}

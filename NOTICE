@@ -1,0 +1,71 @@
+Ancient Warfare 2: Reforged
+===========================
+
+Ancient Warfare 2: Reforged is a MODIFIED, UNOFFICIAL port of the Minecraft mod Ancient Warfare 2 to
+Minecraft 1.21.1 / NeoForge 21.1 (mod id "ancientwarfare").
+It is not made, endorsed or supported by the authors of the original mod.
+
+The original authors are not responsible for this port and are not affiliated with it. Report problems to
+https://github.com/Mahd-Labs/AncientWarfare2-Reforged/issues. Credits: CREDITS.md. AI use: AI_DISCLOSURE.md (the port's code was written largely by AI agents).
+
+Modification notice (GNU GPL v3, section 5(a))
+----------------------------------------------
+
+This program is a modified version of Ancient Warfare 2 by Shadowmage, P3pp3rF1y and contributors, taken from
+P3pp3rF1y/AncientWarfare2 (https://github.com/P3pp3rF1y/AncientWarfare2, branch 1.12.x, commit 446b7db,
+21 August 2021). Modified from 13 November 2026 to 17 November 2026:
+- all code ported from Minecraft 1.12.2 / Forge to Minecraft 1.21.1 / NeoForge 21.1 (largely by AI agents, see
+  AI_DISCLOSURE.md); the five 1.12 mods are one mod with the id "ancientwarfare";
+- left out: mobile siege vehicles, boats, battering ram, chest cart, vehicle upgrades and armour;
+- added: loading of 1.12 templates and worlds, switchable improvements (each with a config option that restores the
+  original behaviour; see README), automated tests;
+- removed for licensing: sound files of third-party origin (their sound events are silent) and pixels copied from
+  vanilla Minecraft textures (replaced, or the vanilla texture is used); see CREDITS.md;
+- display name "Ancient Warfare 2: Reforged".
+The source code of every released jar is published at https://github.com/Mahd-Labs/AncientWarfare2-Reforged;
+CHANGELOG.md lists the changes.
+
+Original copyright notice
+-------------------------
+
+Ancient Warfare 2.x - A mod for Minecraft
+Copyright (C) 2013-2015  Shadowmage
+Copyright (C) 2017-2021  P3pp3rF1y and the Ancient Warfare 2 contributors
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+The full licence text is in the file LICENSE (LICENSE.txt in the source tree).
+
+Third-party code
+----------------
+
+CodeChickenLib
+  The classes in net/shadowmage/ancientwarfare/core/render/lib (CCModel, CCRenderState, OBJParser, Vector3, Rotation,
+  Scale, Translation, Transformation, TransformationList, RedundantTransformation, IconTransformation, LightModel)
+  are derived from CodeChickenLib 3.2.3 (TheCBProject/CodeChickenLib, branch 1.12.x), Copyright ChickenBones and
+  covers1624, licensed under the GNU LGPL 2.1; distributed here under the GNU GPL v3 or later as permitted by
+  section 3 of the LGPL 2.1. Changed in 2026 for this port: reduced to the part Ancient Warfare 2 uses and
+  rewritten against the Minecraft 1.21.1 / NeoForge rendering API; each file states its changes.
+
+Third-party music
+-----------------
+
+The bard tunes (assets/ancientwarfare/sounds/npc/bard) are shortened excerpts of "Drums of the Deep", "Lord of the
+Land", "Master of the Feast", "Teller of the Tales" and "Suonatore di Liuto" by Kevin MacLeod (incompetech.com),
+licensed under Creative Commons: By Attribution 4.0 License, http://creativecommons.org/licenses/by/4.0/
+
+assets/ancientwarfare/sounds/structure/structures/wizard_tower_6.ogg is "Strange Days" by Mike Koenig, from
+SoundBible.com (https://soundbible.com/1741-Strange-Days.html), licensed under Creative Commons Attribution 3.0,
+https://creativecommons.org/licenses/by/3.0/ . It was converted to Ogg Vorbis (and possibly shortened) for Ancient
+Warfare 2 and is shipped unchanged from Ancient Warfare 2. It keeps its own licence (CC BY 3.0), not the GPL.

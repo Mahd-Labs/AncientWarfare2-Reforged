@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"size=large": {
+			"model": "ancientwarfare:block/automation/warehouse_storage_large"
+		},
+		"size=medium": {
+			"model": "ancientwarfare:block/automation/warehouse_storage_medium"
+		},
+		"size=small": {
+			"model": "ancientwarfare:block/automation/warehouse_storage_small"
+		}
+	}
+}

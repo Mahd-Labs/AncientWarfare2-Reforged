@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/cube_bottom_top",
+	"textures": {
+		"bottom": "ancientwarfare:block/automation/chunk_loader_simple_bottom",
+		"top": "ancientwarfare:block/automation/chunk_loader_simple_top",
+		"side": "ancientwarfare:block/automation/chunk_loader_simple_side",
+		"particle": "ancientwarfare:block/automation/chunk_loader_simple_side"
+	}
+}

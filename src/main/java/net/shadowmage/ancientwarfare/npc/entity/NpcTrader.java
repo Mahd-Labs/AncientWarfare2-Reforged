@@ -1,0 +1,153 @@
+package net.shadowmage.ancientwarfare.npc.entity;
+
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.ai.goal.FloatGoal;
+import net.minecraft.world.entity.ai.goal.InteractGoal;
+import net.minecraft.world.entity.ai.goal.LookAtPlayerGoal;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.Level;
+import net.shadowmage.ancientwarfare.npc.ai.RestrictOpenDoorGoal;
+import net.shadowmage.ancientwarfare.core.network.NetworkHandler;
+import net.shadowmage.ancientwarfare.npc.ai.NpcAIDoor;
+import net.shadowmage.ancientwarfare.npc.ai.NpcAIFleeHostiles;
+import net.shadowmage.ancientwarfare.npc.ai.NpcAIFollowPlayer;
+import net.shadowmage.ancientwarfare.npc.ai.NpcAIMoveHome;
+import net.shadowmage.ancientwarfare.npc.ai.NpcAIWander;
+import net.shadowmage.ancientwarfare.npc.ai.owned.NpcAIPlayerOwnedAlarmResponse;
+import net.shadowmage.ancientwarfare.npc.ai.owned.NpcAIPlayerOwnedFollowCommand;
+import net.shadowmage.ancientwarfare.npc.ai.owned.NpcAIPlayerOwnedGetFood;
+import net.shadowmage.ancientwarfare.npc.ai.owned.NpcAIPlayerOwnedIdleWhenHungry;
+import net.shadowmage.ancientwarfare.npc.ai.owned.NpcAIPlayerOwnedRideHorse;
+import net.shadowmage.ancientwarfare.npc.ai.owned.NpcAIPlayerOwnedTrader;
+import net.shadowmage.ancientwarfare.npc.item.ItemCommandBaton;
+import net.shadowmage.ancientwarfare.npc.item.ItemTradeOrder;
+import net.shadowmage.ancientwarfare.npc.orders.TradeOrder;
+import net.shadowmage.ancientwarfare.npc.trade.POTradeList;
+
+public class NpcTrader extends NpcPlayerOwned {
+
+	private Player trader;//used by guis/containers to prevent further interaction
+	private POTradeList tradeList = new POTradeList();
+	private NpcAIPlayerOwnedTrader tradeAI;
+
+	public NpcTrader(EntityType<? extends NpcTrader> type, Level par1World) {
+		super(type, par1World);
+
+		this.goalSelector.addGoal(0, new FloatGoal(this));
+		this.goalSelector.addGoal(0, new RestrictOpenDoorGoal(this));
+		this.goalSelector.addGoal(0, new NpcAIDoor(this, true));
+		this.goalSelector.addGoal(0, (horseAI = new NpcAIPlayerOwnedRideHorse(this)));
+		this.goalSelector.addGoal(2, new NpcAIFollowPlayer(this));
+		this.goalSelector.addGoal(2, new NpcAIPlayerOwnedFollowCommand(this));
+		this.goalSelector.addGoal(3, new NpcAIFleeHostiles(this));
+		this.goalSelector.addGoal(3, new NpcAIPlayerOwnedAlarmResponse(this));
+		this.goalSelector.addGoal(4, tradeAI = new NpcAIPlayerOwnedTrader(this));
+		this.goalSelector.addGoal(5, new NpcAIPlayerOwnedGetFood(this));
+		this.goalSelector.addGoal(6, new NpcAIPlayerOwnedIdleWhenHungry(this));
+		this.goalSelector.addGoal(7, new NpcAIMoveHome(this, 50F, 3F, 30F, 3F));
+
+		//post-100 -- used by delayed shared tasks (look at random stuff, wander)
+		this.goalSelector.addGoal(101, new InteractGoal(this, Player.class, 3.0F, 1.0F));
+		this.goalSelector.addGoal(102, new NpcAIWander(this));
+		this.goalSelector.addGoal(103, new LookAtPlayerGoal(this, Mob.class, 8.0F));
+	}
+
+	@Override
+	public boolean isValidOrdersStack(ItemStack stack) {
+		return !stack.isEmpty() && stack.getItem() instanceof ItemTradeOrder;
+	}
+
+	@Override
+	public void onOrdersInventoryChanged() {
+		tradeList = null;
+		if (isValidOrdersStack(ordersStack)) {
+			tradeList = TradeOrder.getTradeOrder(ordersStack).getTradeList();
+		}
+		tradeAI.onOrdersUpdated();
+	}
+
+	@Override
+	public String getNpcSubType() {
+		return "";
+	}
+
+	@Override
+	public String getNpcType() {
+		return "trader";
+	}
+
+	@Override
+	protected boolean processInteract(Player player, InteractionHand hand) {
+		boolean baton = !player.getItemInHand(hand).isEmpty() && player.getItemInHand(hand).getItem() instanceof ItemCommandBaton;
+		if (baton) {
+			return false;
+		}
+		if (player.level().isClientSide) {
+			return true;
+		}
+		if (isOwner(player))//owner
+		{
+			return tryCommand(player);
+		} else//non-owner
+		{
+			if (trader != null && !trader.isAlive()) {
+				closeTrade();
+			}
+			if (getFoodRemaining() > 0 && trader == null) {
+				startTrade(player);
+				openAltGui(player);
+			}
+		}
+		return true;
+	}
+
+	public void startTrade(Player player) {
+		trader = player;
+	}
+
+	public void closeTrade() {
+		trader = null;
+	}
+
+	@Override
+	public void openAltGui(Player player) {
+		NetworkHandler.INSTANCE.openGui(player, NetworkHandler.GUI_NPC_PLAYER_OWNED_TRADE, getId(), 0, 0);
+	}
+
+	@Override
+	public boolean hasAltGui() {
+		return true;
+	}
+
+	@Override
+	public boolean shouldBeAtHome() {
+		return (level().dimensionType().hasSkyLight() && !level().isDay()) || level().isRainingAt(blockPosition());
+	}
+
+	@Override
+	public boolean isHostileTowards(Entity e) {
+		return false;
+	}
+
+	public POTradeList getTradeList() {
+		return tradeList;
+	}
+
+	@Override
+	public void addAdditionalSaveData(CompoundTag tag) {
+		super.addAdditionalSaveData(tag);
+		tag.put("tradeAI", tradeAI.writeToNBT(new CompoundTag()));
+	}
+
+	@Override
+	public void readAdditionalSaveData(CompoundTag tag) {
+		super.readAdditionalSaveData(tag);
+		tradeAI.readFromNBT(tag.getCompound("tradeAI"));
+	}
+
+}

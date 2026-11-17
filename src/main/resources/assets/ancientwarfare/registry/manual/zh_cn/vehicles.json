@@ -1,0 +1,102 @@
+{
+  "type": "manual_content",
+  "lang": "zh_CN",
+  "category": "vehicles",
+  "content": [
+    {
+      "content_type": "heading",
+      "text": "载具",
+      "level": 1
+    },
+    {
+      "content_type": "heading",
+      "text": "介绍",
+      "level": 2
+    },
+    {
+      "content_type": "text",
+      "text": "古代战争提供了一种既可作战又可民用的交通工具，可以让你轻易摧毁对手的城堡或运送物品. \n战争载具通常有三种不同的类型，或者是混合的. 类型有固定的，移动的，和转动的. 固定意味着没有重新包装就无法移动车辆，而且很难转向. 移动意味着车辆有轮子，可以在不重新包装的情况下移动. 转动意味着车辆的武器能够独立运动，也更容易转向. 这些变化可以混合，例如固定的炮塔或移动炮塔，甚至“固定的”移动. 载具的变化也有四个材料级别。每级都会增加车辆的生命值，同时也能发射更重的弹药. \n每辆车放置后都需要一定的时间进行准备. 设置完成后，可以通过右键单击来访问车载具UI，在这里您可以重新包装车辆并放置弹药、装甲和升级.  大多数战斗车辆需要装上弹药才能开火.载具控制可以在键绑定菜单中找到，默认情况下，“攻击键”是空格键."
+    },
+    {
+      "content_type": "image",
+      "path": "/images/Catapult1.png",
+      "width": 1920,
+      "height": 1051
+    },
+    {
+      "content_type": "heading",
+      "text": "投石机",
+      "level": 2
+    },
+    {
+      "content_type": "text",
+      "text": "投石器是经典的岩石发射器，使用非常简单的扭转力学. 弹射器以石弹、火焰弹、爆炸弹、凝固汽油弹、集簇弹和卵石弹作为弹药.弹射器有固定,转动,移动固定和移动转动. 弹射器可以利用装甲升级，以及所有适用的各种升级."
+    },
+    {
+      "content_type": "image",
+      "path": "/images/Trebuchet1.png",
+      "width": 1920,
+      "height": 1051
+    },
+    {
+      "content_type": "heading",
+      "text": "抛石机",
+      "level": 2
+    },
+    {
+      "content_type": "text",
+      "text": "抛石机是工程学的奇迹，利用高等数学和对物理学的理解，在远距离以高速发射炮弹。抛石机以石弹、火焰弹、爆炸弹、凝固汽油弹、集束弹和卵石弹作为弹药.抛石机有固定、转动、移动固定的和巨大的抛石机变种. 所有装甲升级，并且升级可以在适用的情况下使用."
+    },
+    {
+      "content_type": "image",
+      "path": "/images/Ballista1.png",
+      "width": 1920,
+      "height": 1051
+    },
+    {
+      "content_type": "heading",
+      "text": "弩炮",
+      "level": 2
+    },
+    {
+      "content_type": "text",
+      "text": "弩炮是巨大的十字弓，采用了弓的概念，并利用高扭臂发射巨大的螺栓跨越巨大的距离。投石车有固定，转动,固定移动和移动转动. 弩炮以弩炮螺栓、弩炮火焰箭、弩炮爆裂箭作为弹药。所有装甲升级，并且升级可以在适用的情况下使用. "
+    },
+    {
+      "content_type": "image",
+      "path": "/images/Battering_Ram1.png",
+      "width": 1920,
+      "height": 1051
+    },
+    {
+      "content_type": "heading",
+      "text": "加农炮",
+      "level": 2
+    },
+    {
+      "content_type": "text",
+      "text": "大炮使用从神秘的爬行者身上获得的火药，他们的爆炸力是非常可怕的，可以以极快的速度发射铁炮球. 大炮有固定炮塔、移动固定变种。大炮可以使用铁弹、罐弹和葡萄柚弹作为弹药。所有装甲升级，并且升级可以在适用的情况下使用."
+    },
+    {
+      "content_type": "image",
+      "path": "/images/Hwacha1.png",
+      "width": 1920,
+      "height": 1051
+    },
+    {
+      "content_type": "heading",
+      "text": "火箭车",
+      "level": 2
+    },
+    {
+      "content_type": "text",
+      "text": "火箭车也使用火箭形式的火药武器。火箭车可以快速发射火箭，覆盖大量受损区域. 火箭车使用火箱车火箭、火焰火箭、爆裂火箭和飞天火箭作为弹药. 火箭车只有四种材料级别，是移动固定单元。全部的装甲升级，并且升级可以在适用的情况下使用."
+    },
+    {
+      "content_type": "image",
+      "path": "/images/Cart1.png",
+      "width": 1920,
+      "height": 1051
+    }
+  ]
+}

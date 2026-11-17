@@ -1,0 +1,6 @@
+{
+  "parent": "ancientwarfare:item/npc/wooden_shield_blocking",
+  "textures": {
+    "0": "ancientwarfare:item/npc/shield_witchbane_2"
+  }
+}

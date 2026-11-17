@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"tier=light": {
+			"model": "ancientwarfare:block/automation/torque_junction_light"
+		},
+		"tier=medium": {
+			"model": "ancientwarfare:block/automation/torque_junction_medium"
+		},
+		"tier=heavy": {
+			"model": "ancientwarfare:block/automation/torque_junction_heavy"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "the_wheel",
+  "pattern": [
+    "SCS",
+    "CSC",
+    "SCS"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:white_wool"
+    },
+    "S": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:windmill_blade",
+    "count": 1
+  }
+}

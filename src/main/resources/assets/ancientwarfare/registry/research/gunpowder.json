@@ -1,0 +1,31 @@
+{
+  "type": "research",
+  "name": "gunpowder",
+  "time": 200,
+  "dependencies": [
+    "explosives",
+    "refining"
+  ],
+  "resources": [
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:gunpowders",
+      "count": 16
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:sands",
+      "count": 12
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "minecraft:charcoal",
+      "count": 12
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "minecraft:paper",
+      "count": 8
+    }
+  ]
+}

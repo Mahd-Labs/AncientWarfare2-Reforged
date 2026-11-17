@@ -1,0 +1,520 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"variant": "oak",
+				"facing": "north",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_tex",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"facing": "north",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_tex",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"facing": "south",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"facing": "south",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"facing": "west",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_tex",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"facing": "west",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_tex",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"facing": "east",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_tex",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"facing": "east",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_tex",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"facing": "north",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_spruce",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"facing": "north",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_spruce",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"facing": "south",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"facing": "south",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"facing": "west",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_spruce",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"facing": "west",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_spruce",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"facing": "east",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_spruce",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"facing": "east",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_spruce",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"facing": "north",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_birch",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"facing": "north",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_birch",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"facing": "south",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"facing": "south",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"facing": "west",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_birch",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"facing": "west",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_birch",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"facing": "east",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_birch",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"facing": "east",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_birch",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"facing": "north",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_jungle",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"facing": "north",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_jungle",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"facing": "south",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"facing": "south",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"facing": "west",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_jungle",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"facing": "west",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_jungle",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"facing": "east",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_jungle",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"facing": "east",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_jungle",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"facing": "north",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_acacia",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"facing": "north",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_acacia",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"facing": "south",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"facing": "south",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"facing": "west",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_acacia",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"facing": "west",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_acacia",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"facing": "east",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_acacia",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"facing": "east",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_acacia",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"facing": "north",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_dark_oak",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"facing": "north",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_dark_oak",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"facing": "south",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"facing": "south",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"facing": "west",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_dark_oak",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"facing": "west",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_dark_oak",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"facing": "east",
+				"visible": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_dark_oak",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"facing": "east",
+				"visible": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/chair_dark_oak",
+				"y": 270
+			}
+		}
+	]
+}

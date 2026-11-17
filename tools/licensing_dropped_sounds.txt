@@ -1,0 +1,109 @@
+# Sound files dropped for licensing before the release candidate (third-party origin in their own metadata).
+# Path under assets/ancientwarfare/sounds/ <TAB> reason. The sounds.json events stay registered; events left
+# without files are silent (core/client/SilentSoundFilter.java drops them before the sound engine sees them), except
+# the NPC events that now name a vanilla sound event in sounds.json (type "event"; no vanilla audio is copied):
+# human_female_hurt/death, zombie_ambient/attack/hurt, dwarf_hurt/death, barbarian_hurt, klown_death, monster_death,
+# ishtari_mummy_attack.
+# Read by tools/export_release_snapshot.sh (check 1) and tools/structure_gen_sounds.py.
+# Settled by the owner (2026-11-17), not to be reopened: magical_appearance (universal-soundbank) and
+# witchbane_church_entry (dstgames) stay removed, their terms could not be established; wizard_tower_6 was restored
+# with CC BY 3.0 attribution (CREDITS.md, NOTICE); human_attack_1..9 stay in (siblings of the one removed
+# human_attack file, kept as the main human NPC attack sound).
+npc/barbarian_hurt_1.ogg	game voice line: "Majesty's barbarian see hostile line" (Majesty, Cyberlore), engineer Jack Cameron
+npc/barbarian_hurt_2.ogg	game voice line: "Majesty's barbarian see hostile line" (Majesty, Cyberlore), engineer Jack Cameron
+npc/barbarian_hurt_3.ogg	game voice line: "Majesty's barbarian see hostile line" (Majesty, Cyberlore), engineer Jack Cameron
+npc/dwarf_death_4.ogg	engineer tag "Stephen Rippy" (Ensemble Studios sound designer: Age of Empires / Age of Mythology export)
+npc/dwarf_hurt_4.ogg	engineer tag "Stephen Rippy" (Ensemble Studios sound designer: Age of Empires / Age of Mythology export)
+npc/human_attack_10.ogg	engineer tag "RDM2000" (named third party, not an AW contributor; origin unknown)
+npc/human_female_death_1.ogg	engineer tag "Stephen Rippy" (Ensemble Studios sound designer: Age of Empires / Age of Mythology export)
+npc/human_female_death_2.ogg	engineer tag "Stephen Rippy" (Ensemble Studios sound designer: Age of Empires / Age of Mythology export)
+npc/human_female_death_3.ogg	engineer tag "Stephen Rippy" (Ensemble Studios sound designer: Age of Empires / Age of Mythology export)
+npc/human_female_death_4.ogg	engineer tag "Stephen Rippy" (Ensemble Studios sound designer: Age of Empires / Age of Mythology export)
+npc/human_female_death_5.ogg	engineer tag "Stephen Rippy" (Ensemble Studios sound designer: Age of Empires / Age of Mythology export)
+npc/human_female_hurt_1.ogg	engineer tag "Stephen Rippy" (Ensemble Studios sound designer: Age of Empires / Age of Mythology export)
+npc/human_female_hurt_2.ogg	engineer tag "Stephen Rippy" (Ensemble Studios sound designer: Age of Empires / Age of Mythology export)
+npc/human_female_hurt_3.ogg	engineer tag "Stephen Rippy" (Ensemble Studios sound designer: Age of Empires / Age of Mythology export)
+npc/human_female_hurt_4.ogg	engineer tag "Stephen Rippy" (Ensemble Studios sound designer: Age of Empires / Age of Mythology export)
+npc/human_female_hurt_5.ogg	engineer tag "Stephen Rippy" (Ensemble Studios sound designer: Age of Empires / Age of Mythology export)
+npc/human_female_hurt_6.ogg	engineer tag "Stephen Rippy" (Ensemble Studios sound designer: Age of Empires / Age of Mythology export)
+npc/ishtari_mummy_attack_4.ogg	engineer tag "RDM2000" (named third party, not an AW contributor; origin unknown)
+npc/klown_death_1.ogg	Sounddogs.com copyright tag
+npc/monster_death_2.ogg	engineer tag "RDM2000" (named third party, not an AW contributor; origin unknown)
+npc/zombie_ambient_1.ogg	engineer tag "RDM2000" (named third party, not an AW contributor; origin unknown)
+npc/zombie_ambient_2.ogg	engineer tag "RDM2000" (named third party, not an AW contributor; origin unknown)
+npc/zombie_ambient_3.ogg	engineer tag "RDM2000" (named third party, not an AW contributor; origin unknown)
+npc/zombie_ambient_4.ogg	engineer tag "RDM2000" (named third party, not an AW contributor; origin unknown)
+npc/zombie_ambient_5.ogg	engineer tag "RDM2000" (named third party, not an AW contributor; origin unknown)
+npc/zombie_attack_1.ogg	engineer tag "RDM2000" (named third party, not an AW contributor; origin unknown)
+npc/zombie_attack_2.ogg	engineer tag "RDM2000" (named third party, not an AW contributor; origin unknown)
+npc/zombie_attack_3.ogg	engineer tag "RDM2000" (named third party, not an AW contributor; origin unknown)
+npc/zombie_attack_4.ogg	engineer tag "RDM2000" (named third party, not an AW contributor; origin unknown)
+npc/zombie_attack_5.ogg	engineer tag "RDM2000" (named third party, not an AW contributor; origin unknown)
+npc/zombie_attack_6.ogg	engineer tag "RDM2000" (named third party, not an AW contributor; origin unknown)
+npc/zombie_attack_7.ogg	engineer tag "RDM2000" (named third party, not an AW contributor; origin unknown)
+npc/zombie_hurt_1.ogg	engineer tag "RDM2000" (named third party, not an AW contributor; origin unknown)
+npc/zombie_hurt_2.ogg	engineer tag "RDM2000" (named third party, not an AW contributor; origin unknown)
+npc/zombie_hurt_3.ogg	engineer tag "RDM2000" (named third party, not an AW contributor; origin unknown)
+npc/zombie_hurt_4.ogg	engineer tag "RDM2000" (named third party, not an AW contributor; origin unknown)
+npc/zombie_hurt_6.ogg	engineer tag "RDM2000" (named third party, not an AW contributor; origin unknown)
+structure/protection_flag_claim.ogg	engineer tag "BOBBY LOU" (named third party, not an AW contributor; origin unknown)
+structure/structures/clock_grandfather_chimes.ogg	Sounddogs.com copyright tag
+structure/structures/creepy_chittering.ogg	named third-party artist / album tag
+structure/structures/creepy_droning_1.ogg	"Free Sounds - Horror Sound Effects" album tag, licence unknown
+structure/structures/creepy_droning_2.ogg	"Free Sounds - Horror Sound Effects" album tag, licence unknown
+structure/structures/creepy_evil_girl.ogg	"Free Sounds - Horror Sound Effects" album tag, licence unknown
+structure/structures/creepy_ghostly_breath.ogg	"(c) 2005 Sony Pictures Entertainment" tag
+structure/structures/creepy_ghostly_whisper.ogg	"Free Sounds - Horror Sound Effects" album tag, licence unknown
+structure/structures/creepy_knock_knock.ogg	"Free Sounds - Horror Sound Effects" album tag, licence unknown
+structure/structures/creepy_spooky_ravens.ogg	"Free Sounds - Horror Sound Effects" album tag, licence unknown
+structure/structures/cthulhu.ogg	"Free Sounds - Horror Sound Effects" album tag, licence unknown
+structure/structures/cthulhu_background_1.ogg	Sounddogs.com copyright tag
+structure/structures/cthulhu_background_2.ogg	Sounddogs.com copyright tag
+structure/structures/cthulhu_background_3.ogg	Sounddogs.com copyright tag
+structure/structures/guardians_church_choir.ogg	named third-party artist / album tag
+structure/structures/haunted_graveyard_entry_ambience.ogg	game sound-bank export (title tag)
+structure/structures/haunted_graveyard_tree_rustling_leaves.ogg	game sound-bank export (title tag)
+structure/structures/haunted_graveyard_wind_in_trees_01.ogg	game sound-bank export (title tag)
+structure/structures/haunted_graveyard_wind_in_trees_02.ogg	game sound-bank export (title tag)
+structure/structures/haunted_graveyard_wind_in_trees_03.ogg	game sound-bank export (title tag)
+structure/structures/haunted_graveyard_wind_in_trees_04.ogg	game sound-bank export (title tag)
+structure/structures/horn_1.ogg	engineer tag "Ed Saltzman" (named third party, not an AW contributor; origin unknown)
+structure/structures/horn_3.ogg	engineer tag "Ed Saltzman" (named third party, not an AW contributor; origin unknown)
+structure/structures/horn_7.ogg	named third-party artist / album tag
+structure/structures/horn_8.ogg	named third-party artist / album tag
+structure/structures/magical_appearance.ogg	free-site file with its own terms, not verified (universal-soundbank.com / SoundBible.com / dstgames.com)
+structure/structures/undead_vampire_evil_laugh.ogg	"Free Sounds - Horror Sound Effects" album tag, licence unknown
+structure/structures/vampire_organmusic.ogg	Sounddogs.com copyright tag
+structure/structures/village_carpenter_2.ogg	engineer tag "Ed Saltzman" (named third party, not an AW contributor; origin unknown)
+structure/structures/village_carpenter_3.ogg	engineer tag "Ed Saltzman" (named third party, not an AW contributor; origin unknown)
+structure/structures/village_lumberjack_1.ogg	engineer tag "Ed Saltzman" (named third party, not an AW contributor; origin unknown)
+structure/structures/village_lumberjack_2.ogg	engineer tag "Ed Saltzman" (named third party, not an AW contributor; origin unknown)
+structure/structures/village_market_general_background_1.ogg	engineer tag "Ed Saltzman" (named third party, not an AW contributor; origin unknown)
+structure/structures/village_well_crank.ogg	engineer tag "Ed Saltzman" (named third party, not an AW contributor; origin unknown)
+structure/structures/volcano_1.ogg	Sound Ideas (commercial library) tag
+structure/structures/volcano_10.ogg	Sound Ideas (commercial library) tag
+structure/structures/volcano_2.ogg	Sound Ideas (commercial library) tag
+structure/structures/volcano_3.ogg	film / video rip (title tag)
+structure/structures/volcano_4.ogg	film / video rip (title tag)
+structure/structures/volcano_5.ogg	named third-party artist / album tag
+structure/structures/volcano_6.ogg	named third-party artist / album tag
+structure/structures/volcano_7.ogg	film / video rip (title tag)
+structure/structures/volcano_8.ogg	film / video rip (title tag)
+structure/structures/volcano_9.ogg	film / video rip (title tag)
+structure/structures/witch_house_cat_screeching.ogg	Sounddogs.com copyright tag
+structure/structures/witchbane_church_entry.ogg	free-site file with its own terms, not verified (universal-soundbank.com / SoundBible.com / dstgames.com)
+structure/structures/wizard_tower_8.ogg	engineer tag "Chris Rippy" (Ensemble Studios sound designer: Age of Empires / Age of Mythology export)
+npc/zombie_hurt_5.ogg	sibling of removed files in the same sound set, no tags; removed by the owner's decision (2026-11-17)
+npc/dwarf_hurt_1.ogg	sibling of removed files in the same sound set, no tags; removed by the owner's decision (2026-11-17)
+npc/dwarf_hurt_2.ogg	sibling of removed files in the same sound set, no tags; removed by the owner's decision (2026-11-17)
+npc/dwarf_hurt_3.ogg	sibling of removed files in the same sound set, no tags; removed by the owner's decision (2026-11-17)
+npc/dwarf_death_1.ogg	sibling of removed files in the same sound set, no tags; removed by the owner's decision (2026-11-17)
+npc/dwarf_death_2.ogg	sibling of removed files in the same sound set, no tags; removed by the owner's decision (2026-11-17)
+npc/dwarf_death_3.ogg	sibling of removed files in the same sound set, no tags; removed by the owner's decision (2026-11-17)
+npc/barbarian_hurt_4.ogg	sibling of removed files in the same sound set, no tags; removed by the owner's decision (2026-11-17)
+npc/barbarian_hurt_5.ogg	sibling of removed files in the same sound set, no tags; removed by the owner's decision (2026-11-17)
+npc/klown_death_2.ogg	sibling of removed files in the same sound set, no tags; removed by the owner's decision (2026-11-17)
+npc/monster_death_1.ogg	sibling of removed files in the same sound set, no tags; removed by the owner's decision (2026-11-17)
+npc/ishtari_mummy_attack_1.ogg	sibling of removed files in the same sound set, no tags; removed by the owner's decision (2026-11-17)
+npc/ishtari_mummy_attack_2.ogg	sibling of removed files in the same sound set, no tags; removed by the owner's decision (2026-11-17)
+npc/ishtari_mummy_attack_3.ogg	sibling of removed files in the same sound set, no tags; removed by the owner's decision (2026-11-17)

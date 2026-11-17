@@ -1,0 +1,3617 @@
+{
+  "bard.tune1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/bard/drums-103",
+        "stream": false
+      }
+    ]
+  },
+  "bard.tune2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/bard/lord-112",
+        "stream": false
+      }
+    ]
+  },
+  "bard.tune3": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/bard/master-122",
+        "stream": false
+      }
+    ]
+  },
+  "bard.tune4": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/bard/suonatore_di_liuto",
+        "stream": false
+      }
+    ]
+  },
+  "bard.tune5": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/bard/teller-130-1",
+        "stream": false
+      }
+    ]
+  },
+  "bard.tune6": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/bard/teller-130-2",
+        "stream": false
+      }
+    ]
+  },
+  "barbarian_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/barbarian_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/barbarian_attack_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/barbarian_attack_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/barbarian_attack_4",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/barbarian_attack_5",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/barbarian_attack_6",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "barbarian_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "minecraft:entity.pillager.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "beast_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/beast_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/beast_attack_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/beast_attack_3",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "beast_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/beast_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/beast_death_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/beast_death_3",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "beast_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/beast_hurt_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/beast_hurt_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "brigand_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/brigand_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/brigand_attack_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/brigand_attack_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/brigand_attack_4",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/brigand_attack_5",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/brigand_attack_6",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "brigand_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/brigand_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/brigand_death_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/brigand_death_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/brigand_death_4",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/brigand_death_5",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "brigand_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/brigand_hurt_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/brigand_hurt_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/brigand_hurt_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/brigand_hurt_4",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/brigand_hurt_5",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "coven_dryad_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/coven_dryad_death_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "coven_dryad_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/coven_dryad_hurt_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "coven_familiar_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/coven_familiar_attack_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "coven_familiar_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/coven_familiar_death_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "coven_familiar_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/coven_familiar_hurt_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "coven_puppet_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/coven_puppet_attack_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "coven_puppet_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/coven_puppet_death_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "coven_puppet_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/coven_puppet_hurt_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "coven_satyr_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/coven_satyr_death_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "coven_satyr_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/coven_satyr_hurt_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "coven_scarecrow_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/coven_scarecrow_attack_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "coven_scarecrow_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/coven_scarecrow_death_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "coven_scarecrow_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/coven_scarecrow_hurt_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "coven_witch_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/coven_witch_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/coven_witch_attack_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "coven_witch_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/coven_witch_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/coven_witch_death_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "coven_witch_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/coven_witch_hurt_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "dwarf_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/dwarf_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/dwarf_attack_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/dwarf_attack_3",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "dwarf_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "minecraft:entity.vindicator.death",
+        "type": "event"
+      }
+    ]
+  },
+  "dwarf_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "minecraft:entity.vindicator.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "elf_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/elf_attack_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "elf_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/elf_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/elf_death_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "elf_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/elf_hurt_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/elf_hurt_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/elf_hurt_3",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "ent_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/ent_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/ent_attack_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "ent_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/ent_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/ent_death_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/ent_death_3",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "ent_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/ent_hurt_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/ent_hurt_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/ent_hurt_3",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "gargoyle_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/gargoyle_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/gargoyle_attack_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "gargoyle_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/gargoyle_death_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "gargoyle_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/gargoyle_hurt_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "giant_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/giant_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/giant_attack_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/giant_attack_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/giant_attack_4",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "giant_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/giant_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/giant_death_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/giant_death_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/giant_death_4",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "giant_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/giant_hurt_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/giant_hurt_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/giant_hurt_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/giant_hurt_4",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/giant_hurt_5",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "gnome_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/gnome_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/gnome_attack_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/gnome_attack_3",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "gnome_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/gnome_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/gnome_death_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "gnome_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/gnome_hurt_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/gnome_hurt_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "gremlin_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/gremlin_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/gremlin_attack_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "gremlin_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/gremlin_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/gremlin_death_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "gremlin_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/gremlin_hurt_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/gremlin_hurt_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "hobbit_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/hobbit_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/hobbit_attack_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "hobbit_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/hobbit_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/hobbit_death_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/hobbit_death_3",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "hobbit_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/hobbit_hurt_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/hobbit_hurt_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/hobbit_hurt_3",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "human_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/human_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_attack_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_attack_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_attack_4",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_attack_5",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_attack_6",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_attack_7",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_attack_8",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_attack_9",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "human_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/human_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_death_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_death_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_death_4",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_death_5",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_death_6",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_death_7",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_death_8",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_death_9",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_death_10",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_death_11",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_death_12",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_death_13",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_death_14",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_death_15",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_death_16",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "human_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/human_hurt_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_hurt_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_hurt_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_hurt_4",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_hurt_5",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_hurt_6",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_hurt_7",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_hurt_8",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_hurt_9",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_hurt_10",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_hurt_11",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_hurt_12",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_hurt_13",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "human_female_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/human_female_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/human_female_attack_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "human_female_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.death",
+        "type": "event"
+      }
+    ]
+  },
+  "human_female_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "ishtari_anubite_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/ishtari_anubite_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/ishtari_anubite_attack_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "ishtari_anubite_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/ishtari_anubite_death_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "ishtari_anubite_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/ishtari_anubite_hurt_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "ishtari_mummy_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "minecraft:entity.husk.ambient",
+        "type": "event"
+      }
+    ]
+  },
+  "ishtari_mummy_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/ishtari_mummy_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/ishtari_mummy_death_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/ishtari_mummy_death_3",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "ishtari_mummy_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/ishtari_mummy_hurt_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/ishtari_mummy_hurt_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/ishtari_mummy_hurt_3",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "ishtari_pharoah_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/ishtari_pharoah_attack_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "ishtari_pharoah_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/ishtari_pharoah_death_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "ishtari_pharoah_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/ishtari_pharoah_hurt_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "klown_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/klown_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/klown_attack_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "klown_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "minecraft:entity.witch.death",
+        "type": "event"
+      }
+    ]
+  },
+  "klown_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/klown_hurt_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "kobold_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/kobold_attack_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "kobold_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/kobold_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/kobold_death_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "kobold_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/kobold_hurt_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/kobold_hurt_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "kong_ape_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/kong_ape_attack_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "kong_ape_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/kong_ape_death_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "kong_ape_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/kong_ape_hurt_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "lizardman_ambient": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/lizardman_ambient_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "lizardman_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/lizardman_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/lizardman_attack_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/lizardman_attack_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/lizardman_attack_4",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/lizardman_attack_5",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "lizardman_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/lizardman_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/lizardman_death_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "lizardman_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/lizardman_hurt_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/lizardman_hurt_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/lizardman_hurt_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/lizardman_hurt_4",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "malice_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/malice_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/malice_attack_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/malice_attack_3",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "malice_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/malice_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/malice_death_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/malice_death_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/malice_death_4",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "malice_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/malice_hurt_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/malice_hurt_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/malice_hurt_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/malice_hurt_4",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/malice_hurt_5",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "monster_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/monster_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/monster_attack_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/monster_attack_3",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "monster_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "minecraft:entity.ravager.death",
+        "type": "event"
+      }
+    ]
+  },
+  "monster_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/monster_hurt_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/monster_hurt_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/monster_hurt_3",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "norska_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/norska_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/norska_attack_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/norska_attack_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/norska_attack_4",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "norska_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/norska_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/norska_death_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/norska_death_3",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "norska_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/norska_hurt_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/norska_hurt_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/norska_hurt_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/norska_hurt_4",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "orc_ambient": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/orc_ambient_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_ambient_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_ambient_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_ambient_4",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "orc_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/orc_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_attack_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_attack_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_attack_4",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "orc_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/orc_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_death_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_death_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_death_4",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_death_5",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_death_6",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_death_7",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "orc_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/orc_hurt_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_hurt_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_hurt_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_hurt_4",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_hurt_5",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_hurt_6",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "orc_uruk_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/orc_uruk_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_uruk_attack_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_uruk_attack_3",
+        "weight": 2,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_uruk_attack_4",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_uruk_attack_5",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "orc_uruk_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/orc_uruk_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_uruk_death_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_uruk_death_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_uruk_death_4",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "orc_uruk_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/orc_uruk_hurt_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_uruk_hurt_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_uruk_hurt_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_uruk_hurt_4",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_uruk_hurt_5",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_uruk_hurt_6",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/orc_uruk_hurt_7",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "pirate_ambient": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/pirate_ambient_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/pirate_ambient_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "pirate_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/pirate_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/pirate_attack_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/pirate_attack_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/pirate_attack_4",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/pirate_attack_5",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/pirate_attack_6",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/pirate_attack_7",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "pirate_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/pirate_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/pirate_death_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/pirate_death_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/pirate_death_4",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/pirate_death_5",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "pirate_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/pirate_hurt_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/pirate_hurt_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "skeleton_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/skeleton_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/skeleton_death_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "skeleton_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/skeleton_hurt_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/skeleton_hurt_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/skeleton_hurt_3",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "vampire_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/vampire_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/vampire_attack_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/vampire_attack_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/vampire_attack_4",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "vampire_boss_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/vampire_boss_attack_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "vampire_boss_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/vampire_boss_death_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "vampire_boss_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/vampire_boss_hurt_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "vampire_bride_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/vampire_bride_attack_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/vampire_bride_attack_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "vampire_bride_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/vampire_bride_death_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "vampire_bride_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/vampire_bride_hurt_1",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "vampire_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/vampire_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/vampire_death_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "vampire_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/vampire_hurt_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/vampire_hurt_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "zombie_ambient": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "minecraft:entity.zombie.ambient",
+        "type": "event"
+      }
+    ]
+  },
+  "zombie_attack": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "minecraft:entity.zombie.ambient",
+        "type": "event"
+      }
+    ]
+  },
+  "zombie_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "ancientwarfare:npc/zombie_death_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/zombie_death_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/zombie_death_3",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/zombie_death_4",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:npc/zombie_death_5",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "zombie_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "minecraft:entity.zombie.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "teleport_in": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:events/teleport_in",
+        "stream": false
+      }
+    ]
+  },
+  "teleport_out": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:events/teleport_out",
+        "stream": false
+      }
+    ]
+  },
+  "protection_flag_claim": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "coffin_opens": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/coffin_opens",
+        "stream": false
+      }
+    ]
+  },
+  "stone_coffin_opens": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/stone_coffin",
+        "stream": false
+      }
+    ]
+  },
+  "sandstone_sarcophagus_opens": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/sandstone_sarcophagus",
+        "stream": false
+      }
+    ]
+  },
+  "prismarine_coffin_opens": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/prismarine_coffin",
+        "stream": false
+      }
+    ]
+  },
+  "demonic_coffin_opens": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/demonic_coffin"
+      },
+      {
+        "name": "ancientwarfare:structure/demonic_coffin_2"
+      }
+    ]
+  },
+  "urn_break": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/urn_break",
+        "stream": false
+      }
+    ]
+  },
+  "coin_stack_break": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/coinstack_break",
+        "stream": false
+      }
+    ]
+  },
+  "coin_stack_interact": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/coinstack_interact",
+        "stream": false
+      }
+    ]
+  },
+  "iron_gate": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/iron_gate",
+        "stream": false
+      }
+    ]
+  },
+  "iron_gate_break": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/iron_gate_break",
+        "stream": false
+      }
+    ]
+  },
+  "wooden_gate": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/wooden_gate",
+        "stream": false
+      }
+    ]
+  },
+  "wooden_gate_break": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/wooden_gate_break_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:structure/wooden_gate_break_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "barbarian_drums_cautious": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/barbarian_drums_cautious",
+        "stream": true
+      }
+    ]
+  },
+  "barbarian_drums_distant": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/barbarian_drums_distant",
+        "stream": true
+      }
+    ]
+  },
+  "barbarian_drums_slow_short": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/barbarian_drums_slow_short",
+        "stream": true
+      }
+    ]
+  },
+  "barbarian_drums_warning": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/barbarian_drums_warning",
+        "stream": true
+      }
+    ]
+  },
+  "barracks_ambiance": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/barracks_ambiance",
+        "stream": true
+      }
+    ]
+  },
+  "clock_grandfather_chimes": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "creepy_chittering": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "creepy_crypt_voice_1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/creepy_crypt_voice_1",
+        "stream": false
+      }
+    ]
+  },
+  "creepy_crypt_voice_2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/creepy_crypt_voice_2",
+        "stream": false
+      }
+    ]
+  },
+  "creepy_crypt_voice_4": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/creepy_crypt_voice_4",
+        "stream": false
+      }
+    ]
+  },
+  "creepy_droning_1": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "creepy_droning_2": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "creepy_evil_girl": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "creepy_ghostly_breath": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "creepy_ghostly_whisper": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "creepy_knock_knock": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "creepy_spooky_ravens": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "cthulhu": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "cthulhu_background_1": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "cthulhu_background_2": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "cthulhu_background_3": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "empire_church_bell": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/empire_church_bell",
+        "stream": false
+      }
+    ]
+  },
+  "witchbane_church_entry": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "witchbane_nuns_chant": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witchbane_nuns_chant",
+        "stream": false
+      }
+    ]
+  },
+  "evil_ambience_1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/evil_ambience_1",
+        "stream": true
+      }
+    ]
+  },
+  "evil_ambience_2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/evil_ambience_2",
+        "stream": true
+      }
+    ]
+  },
+  "evil_dark_prayer": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/evil_dark_prayer",
+        "stream": true
+      }
+    ]
+  },
+  "evil_demonichaunting1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/evil_demonichaunting1",
+        "stream": true
+      }
+    ]
+  },
+  "evil_demonichaunting2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/evil_demonichaunting2",
+        "stream": true
+      }
+    ]
+  },
+  "evil_demonichaunting3": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/evil_demonichaunting3",
+        "stream": true
+      }
+    ]
+  },
+  "evil_demonichaunting4": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/evil_demonichaunting4",
+        "stream": false
+      }
+    ]
+  },
+  "evil_getout": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/evil_getout",
+        "stream": false
+      }
+    ]
+  },
+  "gong_large": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/gong_large",
+        "stream": true
+      }
+    ]
+  },
+  "gongs_1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/gongs_1",
+        "stream": false
+      }
+    ]
+  },
+  "gongs_2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/gongs_2",
+        "stream": false
+      }
+    ]
+  },
+  "gongs_3": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/gongs_3",
+        "stream": false
+      }
+    ]
+  },
+  "gongs_4": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/gongs_4",
+        "stream": false
+      }
+    ]
+  },
+  "gongs_5": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/gongs_5",
+        "stream": true
+      }
+    ]
+  },
+  "gongs_6": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/gongs_6",
+        "stream": false
+      }
+    ]
+  },
+  "grindstone_generic": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/grindstone_generic",
+        "stream": true
+      }
+    ]
+  },
+  "guardians_church_choir": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "haunted_graveyard": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/haunted_graveyard",
+        "stream": false
+      }
+    ]
+  },
+  "haunted_graveyard_entry_ambience": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "haunted_graveyard_tree_rustling_leaves": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "haunted_graveyard_wind_in_trees_01": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "haunted_graveyard_wind_in_trees_02": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "haunted_graveyard_wind_in_trees_03": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "haunted_graveyard_wind_in_trees_04": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "horn_1": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "horn_3": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "horn_5": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/horn_5",
+        "stream": true
+      }
+    ]
+  },
+  "horn_6": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/horn_6",
+        "stream": false
+      }
+    ]
+  },
+  "horn_7": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "horn_8": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "jungle_drums_1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/jungle_drums_1",
+        "stream": true
+      }
+    ]
+  },
+  "jungle_drums_2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/jungle_drums_2",
+        "stream": false
+      }
+    ]
+  },
+  "location_sigh_1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/location_sigh_1",
+        "stream": false
+      }
+    ]
+  },
+  "magical_appearance": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "market_generic_2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/market_generic_2",
+        "stream": true
+      }
+    ]
+  },
+  "nogg_church_bells": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/nogg_church_bells",
+        "stream": true
+      }
+    ]
+  },
+  "nogg_clock_tower": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/nogg_clock_tower",
+        "stream": true
+      }
+    ]
+  },
+  "pirate_pugwash": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/pirate_pugwash",
+        "stream": true
+      }
+    ]
+  },
+  "religious_church_bells_12": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/religious_church_bells_12",
+        "stream": true
+      }
+    ]
+  },
+  "sarkonid_music": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/sarkonid_music",
+        "stream": true
+      }
+    ]
+  },
+  "undead_spooky": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/undead_spooky",
+        "stream": true
+      }
+    ]
+  },
+  "undead_whispering_voices": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/undead_whispering_voices",
+        "stream": false
+      }
+    ]
+  },
+  "undead_ambience": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/undead_ambience",
+        "stream": true
+      }
+    ]
+  },
+  "undead_haunting": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/undead_haunting",
+        "stream": false
+      }
+    ]
+  },
+  "undead_vampire_evil_laugh": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "vampire_castle_organ_short": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/vampire_castle_organ_short",
+        "stream": true
+      }
+    ]
+  },
+  "vampire_organmusic": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "vampire_watcher": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/vampire_watcher",
+        "stream": false
+      }
+    ]
+  },
+  "vampire_crypt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/vampire_crypt",
+        "stream": true
+      }
+    ]
+  },
+  "vampire_ghostly_voices": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/vampire_ghostly_voices",
+        "stream": true
+      }
+    ]
+  },
+  "vampire_whispers": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/vampire_whispers",
+        "stream": false
+      }
+    ]
+  },
+  "market_generic": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/market_generic",
+        "stream": true
+      }
+    ]
+  },
+  "village_carpenter_1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/village_carpenter_1",
+        "stream": false
+      }
+    ]
+  },
+  "village_carpenter_2": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "village_carpenter_3": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "village_carpenter_4": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/village_carpenter_4",
+        "stream": false
+      }
+    ]
+  },
+  "village_carpenter_5": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/village_carpenter_5",
+        "stream": false
+      }
+    ]
+  },
+  "village_farm_ambience_3": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/village_farm_ambience_3",
+        "stream": true
+      }
+    ]
+  },
+  "village_general_ambience_1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/village_general_ambience_1",
+        "stream": true
+      }
+    ]
+  },
+  "village_general_ambience_3": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/village_general_ambience_3",
+        "stream": true
+      }
+    ]
+  },
+  "village_lumberjack_1": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "village_lumberjack_2": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "village_market_general_background_1": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "village_pigeons_1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/village_pigeons_1",
+        "stream": false
+      }
+    ]
+  },
+  "village_pigeons_2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/village_pigeons_2",
+        "stream": true
+      }
+    ]
+  },
+  "village_pigeons_3": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/village_pigeons_3",
+        "stream": false
+      }
+    ]
+  },
+  "village_tavern_ambient_loop": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/village_tavern_ambient_loop",
+        "stream": true
+      }
+    ]
+  },
+  "village_water_mill_wheel_turning": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/village_water_mill_wheel_turning",
+        "stream": true
+      }
+    ]
+  },
+  "village_weavers_loom": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/village_weavers_loom",
+        "stream": true
+      }
+    ]
+  },
+  "village_well_crank": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "village_windmill": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/village_windmill",
+        "stream": true
+      }
+    ]
+  },
+  "village_windmill_interior": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/village_windmill_interior",
+        "stream": true
+      }
+    ]
+  },
+  "village_windmill_sails_turning_1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/village_windmill_sails_turning_1",
+        "stream": true
+      }
+    ]
+  },
+  "village_windmill_sails_turning_2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/village_windmill_sails_turning_2",
+        "stream": false
+      }
+    ]
+  },
+  "volcano": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/volcano",
+        "stream": false
+      }
+    ]
+  },
+  "volcano_10": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "volcano_2": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "volcano_3": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "volcano_4": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "volcano_5": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "volcano_6": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "volcano_7": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "volcano_8": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "volcano_9": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "volcano_erupts_1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/volcano_erupts_1",
+        "stream": true
+      }
+    ]
+  },
+  "volcano_erupts_2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/volcano_erupts_2",
+        "stream": true
+      }
+    ]
+  },
+  "volcano_erupts_3": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/volcano_erupts_3",
+        "stream": false
+      }
+    ]
+  },
+  "volcano_erupts_4": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/volcano_erupts_4",
+        "stream": false
+      }
+    ]
+  },
+  "volcano_explosion": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/volcano_explosion",
+        "stream": false
+      }
+    ]
+  },
+  "volcano_rumble": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/volcano_rumble",
+        "stream": false
+      }
+    ]
+  },
+  "volcano_1": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "witch_house_1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_1",
+        "stream": true
+      }
+    ]
+  },
+  "witch_house_2_cackle": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_2_cackle",
+        "stream": false
+      }
+    ]
+  },
+  "witch_house_2_hungry": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_2_hungry",
+        "stream": false
+      }
+    ]
+  },
+  "witch_house_2_laugh_1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_2_laugh_1",
+        "stream": false
+      }
+    ]
+  },
+  "witch_house_2_oooh": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_2_oooh",
+        "stream": false
+      }
+    ]
+  },
+  "witch_house_3": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_3",
+        "stream": true
+      }
+    ]
+  },
+  "witch_house_4": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_4",
+        "stream": true
+      }
+    ]
+  },
+  "witch_house_5_1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_5_1",
+        "stream": true
+      }
+    ]
+  },
+  "witch_house_5_2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_5_2",
+        "stream": true
+      }
+    ]
+  },
+  "witch_house_5_3": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_5_3",
+        "stream": true
+      }
+    ]
+  },
+  "witch_house_bubbling_cauldron_1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_bubbling_cauldron_1",
+        "stream": false
+      }
+    ]
+  },
+  "witch_house_bubbling_cauldron_2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_bubbling_cauldron_2",
+        "stream": false
+      }
+    ]
+  },
+  "witch_house_bubbling_cauldron_3": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_bubbling_cauldron_3",
+        "stream": false
+      }
+    ]
+  },
+  "witch_house_bubbling_cauldron_4": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_bubbling_cauldron_4",
+        "stream": true
+      }
+    ]
+  },
+  "witch_house_bugs": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_bugs",
+        "stream": true
+      }
+    ]
+  },
+  "witch_house_cat_screeching": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "witch_house_crow_1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_crow_1",
+        "stream": false
+      }
+    ]
+  },
+  "witch_house_crow_2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_crow_2",
+        "stream": false
+      }
+    ]
+  },
+  "witch_house_mad_laugh": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_mad_laugh",
+        "stream": false
+      }
+    ]
+  },
+  "witch_house_rats_squeak_1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_rats_squeak_1",
+        "stream": false
+      }
+    ]
+  },
+  "witch_house_rats_squeak_2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_rats_squeak_2",
+        "stream": false
+      }
+    ]
+  },
+  "witch_house_rats_squeak_3": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_rats_squeak_3",
+        "stream": false
+      }
+    ]
+  },
+  "witch_house_toad_1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_toad_1",
+        "stream": false
+      }
+    ]
+  },
+  "witch_house_toad_2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/witch_house_toad_2",
+        "stream": false
+      }
+    ]
+  },
+  "wizard_explosion_2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/wizard_explosion_2",
+        "stream": false
+      }
+    ]
+  },
+  "wizard_tower_1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/wizard_tower_1",
+        "stream": true
+      }
+    ]
+  },
+  "wizard_tower_10": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/wizard_tower_10",
+        "stream": true
+      }
+    ]
+  },
+  "wizard_tower_11": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/wizard_tower_11",
+        "stream": true
+      }
+    ]
+  },
+  "wizard_tower_12": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/wizard_tower_12",
+        "stream": true
+      }
+    ]
+  },
+  "wizard_tower_2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/wizard_tower_2",
+        "stream": true
+      }
+    ]
+  },
+  "wizard_tower_3": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/wizard_tower_3",
+        "stream": true
+      }
+    ]
+  },
+  "wizard_tower_4": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/wizard_tower_4",
+        "stream": false
+      }
+    ]
+  },
+  "wizard_tower_5": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/wizard_tower_5",
+        "stream": true
+      }
+    ]
+  },
+  "wizard_tower_6": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/wizard_tower_6",
+        "stream": true
+      }
+    ]
+  },
+  "wizard_tower_7": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/wizard_tower_7",
+        "stream": true
+      }
+    ]
+  },
+  "wizard_tower_8": {
+    "category": "neutral",
+    "sounds": []
+  },
+  "wizard_tower_9": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/wizard_tower_9",
+        "stream": false
+      }
+    ]
+  },
+  "wizards_tower_13": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/wizards_tower_13",
+        "stream": true
+      }
+    ]
+  },
+  "wizards_tower_14": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/wizards_tower_14",
+        "stream": false
+      }
+    ]
+  },
+  "wizards_tower_15": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/wizards_tower_15",
+        "stream": false
+      }
+    ]
+  },
+  "wizards_tower_16": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/wizards_tower_16",
+        "stream": false
+      }
+    ]
+  },
+  "wizards_tower_17": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/wizards_tower_17",
+        "stream": false
+      }
+    ]
+  },
+  "wizards_tower_18": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/wizards_tower_18",
+        "stream": false
+      }
+    ]
+  },
+  "xoltec_long_drum_beat": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/xoltec_long_drum_beat",
+        "stream": true
+      }
+    ]
+  },
+  "xoltec_pyramid_drums": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/xoltec_pyramid_drums",
+        "stream": true
+      }
+    ]
+  },
+  "xoltec_temple_flute": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/xoltec_temple_flute",
+        "stream": true
+      }
+    ]
+  },
+  "xoltec_town_drums": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/xoltec_town_drums",
+        "stream": true
+      }
+    ]
+  },
+  "xoltec_town_flutes": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/xoltec_town_flutes",
+        "stream": true
+      }
+    ]
+  },
+  "xoltec_town_long": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/xoltec_town_long",
+        "stream": true
+      }
+    ]
+  },
+  "yo_way_yo": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/yo_way_yo",
+        "stream": true
+      }
+    ]
+  },
+  "zimba_drums_2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/zimba_drums_2",
+        "stream": true
+      }
+    ]
+  },
+  "zimba_village_dance": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/zimba_village_dance",
+        "stream": true
+      }
+    ]
+  },
+  "evil_boogiemancackle": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/structures/evil_boogiemancackle",
+        "stream": false
+      }
+    ]
+  },
+  "auto_load/test_drums": {
+    "sounds": [
+      {
+        "name": "ancientwarfare:structure/auto_load/test_drums",
+        "stream": false
+      }
+    ]
+  },
+  "ballista_bolt_hit_entity": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:vehicle/ballista_bolt_hit_entity",
+        "stream": false
+      }
+    ]
+  },
+  "ballista_bolt_hit_ground": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:vehicle/ballista_bolt_hit_ground",
+        "stream": false
+      }
+    ]
+  },
+  "ballista_launch": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:vehicle/ballista_launch_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:vehicle/ballista_launch_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "ballista_reload": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:vehicle/ballista_reload",
+        "stream": false
+      }
+    ]
+  },
+  "catapult_launch": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:vehicle/catapult_launch_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:vehicle/catapult_launch_2",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:vehicle/catapult_launch_3",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "catapult_reload": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:vehicle/catapult_reload",
+        "stream": false
+      }
+    ]
+  },
+  "giant_trebuchet_launch": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:vehicle/giant_trebuchet_launch",
+        "stream": false
+      }
+    ]
+  },
+  "trebuchet_launch": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:vehicle/trebuchet_launch_1",
+        "weight": 1,
+        "stream": false
+      },
+      {
+        "name": "ancientwarfare:vehicle/trebuchet_launch_2",
+        "weight": 1,
+        "stream": false
+      }
+    ]
+  },
+  "trebuchet_reload": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ancientwarfare:vehicle/trebuchet_reload",
+        "stream": false
+      }
+    ]
+  }
+}

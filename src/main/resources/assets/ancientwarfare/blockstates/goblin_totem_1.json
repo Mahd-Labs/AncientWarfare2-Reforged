@@ -1,0 +1,39 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"facing": "north"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/cube_tex"
+			}
+		},
+		{
+			"when": {
+				"facing": "south"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/cube_tex",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"facing": "west"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/cube_tex",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"facing": "east"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/cube_tex",
+				"y": 90
+			}
+		}
+	]
+}

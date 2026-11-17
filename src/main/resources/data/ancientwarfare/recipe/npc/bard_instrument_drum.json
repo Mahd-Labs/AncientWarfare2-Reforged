@@ -1,0 +1,20 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "leadership",
+  "pattern": [
+    "PLP",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "L": {
+      "tag": "c:leathers"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:bard_instrument_drum",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "the_wheel",
+  "pattern": [
+    "S",
+    "S",
+    "G"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:shafts/iron"
+    },
+    "G": {
+      "tag": "c:gears/iron"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:torque_shaft_medium",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "leadership",
+  "pattern": [
+    "TT ",
+    "SST",
+    "TT "
+  ],
+  "key": {
+    "S": {
+      "tag": "c:strings"
+    },
+    "T": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:bard_instrument_harp",
+    "count": 1
+  }
+}

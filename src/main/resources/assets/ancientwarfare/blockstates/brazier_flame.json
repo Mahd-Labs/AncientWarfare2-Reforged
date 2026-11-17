@@ -1,0 +1,20 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"lit": "true"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/brazier_flame_on"
+			}
+		},
+		{
+			"when": {
+				"lit": "false"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/brazier_flame_off"
+			}
+		}
+	]
+}

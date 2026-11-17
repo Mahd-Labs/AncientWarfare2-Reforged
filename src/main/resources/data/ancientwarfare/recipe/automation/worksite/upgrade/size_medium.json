@@ -1,0 +1,21 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "engineering",
+  "pattern": [
+    " S ",
+    "FFF",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "tag": "c:strings"
+    },
+    "F": {
+      "tag": "c:fences/wooden"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:worksite_upgrade_bounds_medium",
+    "count": 1
+  }
+}

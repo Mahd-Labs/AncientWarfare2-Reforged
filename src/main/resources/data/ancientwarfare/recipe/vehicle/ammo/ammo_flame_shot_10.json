@@ -1,0 +1,16 @@
+{
+  "type": "ancientwarfare:research_shapeless",
+  "research": "ballistics",
+  "ingredients": [
+    {
+      "item": "ancientwarfare:flame_charge"
+    },
+    {
+      "item": "ancientwarfare:clay_casing"
+    }
+  ],
+  "result": {
+    "id": "ancientwarfare:ammo_flame_shot_10",
+    "count": 2
+  }
+}

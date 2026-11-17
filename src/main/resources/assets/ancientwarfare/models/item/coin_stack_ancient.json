@@ -1,0 +1,53 @@
+{
+	"parent": "ancientwarfare:block/structure/generated/coin_stack_8_tex",
+	"overrides": [
+		{
+			"predicate": {
+				"ancientwarfare:variant": 1
+			},
+			"model": "ancientwarfare:item/coin_stack_ancient_variant_1"
+		},
+		{
+			"predicate": {
+				"ancientwarfare:variant": 2
+			},
+			"model": "ancientwarfare:item/coin_stack_ancient_variant_2"
+		},
+		{
+			"predicate": {
+				"ancientwarfare:variant": 3
+			},
+			"model": "ancientwarfare:item/coin_stack_ancient_variant_3"
+		},
+		{
+			"predicate": {
+				"ancientwarfare:variant": 4
+			},
+			"model": "ancientwarfare:item/coin_stack_ancient_variant_4"
+		},
+		{
+			"predicate": {
+				"ancientwarfare:variant": 5
+			},
+			"model": "ancientwarfare:item/coin_stack_ancient_variant_5"
+		},
+		{
+			"predicate": {
+				"ancientwarfare:variant": 6
+			},
+			"model": "ancientwarfare:item/coin_stack_ancient_variant_6"
+		},
+		{
+			"predicate": {
+				"ancientwarfare:variant": 7
+			},
+			"model": "ancientwarfare:item/coin_stack_ancient_variant_7"
+		},
+		{
+			"predicate": {
+				"ancientwarfare:variant": 8
+			},
+			"model": "ancientwarfare:item/coin_stack_ancient_variant_8"
+		}
+	]
+}

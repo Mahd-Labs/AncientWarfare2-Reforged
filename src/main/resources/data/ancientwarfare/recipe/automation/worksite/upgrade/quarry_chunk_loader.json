@@ -1,0 +1,21 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "machinery",
+  "pattern": [
+    " I ",
+    "ICI",
+    " I "
+  ],
+  "key": {
+    "C": {
+      "item": "ancientwarfare:chunk_loader_deluxe"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:worksite_upgrade_chunkloader_quarry",
+    "count": 1
+  }
+}

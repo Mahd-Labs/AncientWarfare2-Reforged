@@ -1,0 +1,59 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "ancientwarfare:flywheel_storage_light",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "ancientwarfare:flywheel_storage",
+									"properties": {
+										"tier": "light"
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "ancientwarfare:flywheel_storage_medium",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "ancientwarfare:flywheel_storage",
+									"properties": {
+										"tier": "medium"
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "ancientwarfare:flywheel_storage_heavy",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "ancientwarfare:flywheel_storage",
+									"properties": {
+										"tier": "heavy"
+									}
+								}
+							]
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

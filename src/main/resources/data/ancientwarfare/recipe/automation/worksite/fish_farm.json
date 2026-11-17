@@ -1,0 +1,27 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "fishing",
+  "pattern": [
+    "___",
+    "GWG",
+    "_C_"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:chests"
+    },
+    "W": {
+      "item": "minecraft:fishing_rod"
+    },
+    "G": {
+      "tag": "c:gears/wooden"
+    },
+    "_": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:fish_farm",
+    "count": 1
+  }
+}

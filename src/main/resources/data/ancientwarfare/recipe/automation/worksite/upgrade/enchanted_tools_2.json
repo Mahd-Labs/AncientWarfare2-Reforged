@@ -1,0 +1,24 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "mass_production",
+  "pattern": [
+    "B B",
+    "III"
+  ],
+  "key": {
+    "B": {
+      "type": "ancientwarfare:item_nbt_relaxed",
+      "item": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:custom_data": "{StoredEnchantments:[{lvl:2s,id:35s}]}"
+      }
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:worksite_upgrade_enchanted_tools_2",
+    "count": 1
+  }
+}

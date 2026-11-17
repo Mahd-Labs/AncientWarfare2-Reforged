@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=east": {
+			"model": "ancientwarfare:block/automation/warehouse_stock_viewer",
+			"y": 90
+		},
+		"facing=north": {
+			"model": "ancientwarfare:block/automation/warehouse_stock_viewer"
+		},
+		"facing=south": {
+			"model": "ancientwarfare:block/automation/warehouse_stock_viewer",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "ancientwarfare:block/automation/warehouse_stock_viewer",
+			"y": 270
+		}
+	}
+}

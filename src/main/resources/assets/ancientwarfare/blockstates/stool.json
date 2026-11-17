@@ -1,0 +1,52 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"variant": "oak"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/stool_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/stool_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/stool_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/stool_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/stool_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/stool_dark_oak"
+			}
+		}
+	]
+}

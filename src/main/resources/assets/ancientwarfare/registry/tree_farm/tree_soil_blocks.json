@@ -1,0 +1,10 @@
+{
+	"soils": [
+		{ "name": "minecraft:dirt" },
+		{ "name": "minecraft:coarse_dirt" },
+		{ "name": "minecraft:podzol" },
+		{ "name": "minecraft:grass_block" },
+		{ "name": "minecraft:mycelium" },
+		{ "name": "minecraft:end_stone" }
+	]
+}

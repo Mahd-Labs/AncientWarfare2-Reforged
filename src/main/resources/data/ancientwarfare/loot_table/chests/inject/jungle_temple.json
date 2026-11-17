@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "ancientwarfare:manual"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "ancientwarfare:wooden_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "ancientwarfare:engineering_station"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "ancientwarfare:iron_spear"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "ancientwarfare:iron_halberd"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "ancientwarfare:iron_lance"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "ancientwarfare:food_bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "ancientwarfare:steel_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 50
+        }
+      ]
+    }
+  ]
+}

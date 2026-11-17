@@ -1,0 +1,29 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "trade",
+  "pattern": [
+    "GF ",
+    "GTB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "T": {
+      "item": "minecraft:white_wool"
+    },
+    "F": {
+      "tag": "ancientwarfare:food_bundle"
+    },
+    "G": {
+      "tag": "c:ingots/gold"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:npc_spawner",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{npcSubtype:\"\",npcType:\"trader\"}"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "research",
+  "name": "navigation",
+  "time": 200,
+  "dependencies": [
+    "theory_of_gravity",
+    "seafaring"
+  ],
+  "resources": [
+    {
+      "item": "minecraft:compass"
+    },
+    {
+      "item": "minecraft:map"
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "minecraft:paper",
+      "count": 12
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "minecraft:charcoal",
+      "count": 5
+    }
+  ]
+}

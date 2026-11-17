@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:block/cube_bottom_top",
+	"textures": {
+		"top": "ancientwarfare:block/structure/builder_top",
+		"bottom": "minecraft:block/stone_bricks",
+		"side": "ancientwarfare:block/structure/builder_side"
+	},
+	"render_type": "minecraft:cutout"
+}

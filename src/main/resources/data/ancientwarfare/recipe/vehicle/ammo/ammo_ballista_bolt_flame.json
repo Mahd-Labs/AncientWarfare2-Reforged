@@ -1,0 +1,30 @@
+{
+  "type": "ancientwarfare:research_shapeless",
+  "research": "ballistics",
+  "ingredients": [
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:rods/wooden",
+      "count": 5
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:ingots/iron",
+      "count": 2
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:feathers",
+      "count": 5
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "ancientwarfare:flame_charge",
+      "count": 2
+    }
+  ],
+  "result": {
+    "id": "ancientwarfare:ammo_ballista_bolt_flame",
+    "count": 8
+  }
+}

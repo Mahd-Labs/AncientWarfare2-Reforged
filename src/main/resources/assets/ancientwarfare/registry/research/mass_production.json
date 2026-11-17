@@ -1,0 +1,31 @@
+{
+  "type": "research",
+  "name": "mass_production",
+  "time": 200,
+  "dependencies": [
+    "refining",
+    "machinery"
+  ],
+  "resources": [
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:ingots/steel",
+      "count": 12
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:gears/steel",
+      "count": 6
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:bearings/steel",
+      "count": 3
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:shafts/steel",
+      "count": 3
+    }
+  ]
+}

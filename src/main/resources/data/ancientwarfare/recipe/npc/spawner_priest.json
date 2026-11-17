@@ -1,0 +1,26 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "leadership",
+  "pattern": [
+    "GF",
+    "GB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "F": {
+      "tag": "ancientwarfare:food_bundle"
+    },
+    "G": {
+      "tag": "c:ingots/gold"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:npc_spawner",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{npcSubtype:\"\",npcType:\"priest\"}"
+    }
+  }
+}

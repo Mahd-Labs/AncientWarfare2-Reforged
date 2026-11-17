@@ -1,0 +1,11 @@
+{
+	"parent": "ancientwarfare:block/structure/brazier_flame_off",
+	"overrides": [
+		{
+			"predicate": {
+				"ancientwarfare:variant": 1
+			},
+			"model": "ancientwarfare:item/brazier_flame_variant_1"
+		}
+	]
+}

@@ -1,0 +1,2248 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "x",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "x",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_middle_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_two_side_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "x",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "x",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "x",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "x",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "x",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_tex",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "x",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "y",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "y",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_middle_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_two_side_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "y",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "y",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "y",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "y",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "y",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_tex",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "y",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_tex"
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "z",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_tex",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "z",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_middle_tex",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_tex",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_two_side_tex",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_tex",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_tex",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "z",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_tex",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "z",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_tex",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "z",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_tex",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "z",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_tex",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "z",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_tex",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"variant": "oak",
+				"axis": "z",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_tex",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "x",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "x",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_middle_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_two_side_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "x",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "x",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "x",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "x",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "x",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_spruce",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "x",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "y",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "y",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_middle_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_two_side_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "y",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "y",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "y",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "y",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "y",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_spruce",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "y",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_spruce"
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "z",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_spruce",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "z",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_middle_spruce",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_spruce",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_two_side_spruce",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_spruce",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_spruce",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "z",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_spruce",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "z",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_spruce",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "z",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_spruce",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "z",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_spruce",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "z",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_spruce",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"variant": "spruce",
+				"axis": "z",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_spruce",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "x",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "x",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_middle_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_two_side_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "x",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "x",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "x",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "x",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "x",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_birch",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "x",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "y",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "y",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_middle_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_two_side_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "y",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "y",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "y",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "y",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "y",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_birch",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "y",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_birch"
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "z",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_birch",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "z",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_middle_birch",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_birch",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_two_side_birch",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_birch",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_birch",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "z",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_birch",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "z",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_birch",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "z",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_birch",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "z",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_birch",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "z",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_birch",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"variant": "birch",
+				"axis": "z",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_birch",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "x",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "x",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_middle_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_two_side_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "x",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "x",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "x",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "x",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "x",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_jungle",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "x",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "y",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "y",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_middle_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_two_side_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "y",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "y",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "y",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "y",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "y",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_jungle",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "y",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_jungle"
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "z",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_jungle",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "z",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_middle_jungle",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_jungle",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_two_side_jungle",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_jungle",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_jungle",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "z",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_jungle",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "z",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_jungle",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "z",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_jungle",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "z",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_jungle",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "z",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_jungle",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"variant": "jungle",
+				"axis": "z",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_jungle",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "x",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "x",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_middle_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_two_side_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "x",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "x",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "x",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "x",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "x",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_acacia",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "x",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "y",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "y",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_middle_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_two_side_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "y",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "y",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "y",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "y",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "y",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_acacia",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "y",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_acacia"
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "z",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_acacia",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "z",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_middle_acacia",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_acacia",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_two_side_acacia",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_acacia",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_acacia",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "z",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_acacia",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "z",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_acacia",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "z",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_acacia",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "z",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_acacia",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "z",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_acacia",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"variant": "acacia",
+				"axis": "z",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_acacia",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "x",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "x",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_middle_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_two_side_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "x",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "x",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "x",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "x",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "x",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "x",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_dark_oak",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "x",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "y",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "y",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_middle_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_two_side_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "y",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "y",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "y",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "y",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "y",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "y",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_dark_oak",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "y",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_dark_oak"
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "z",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_dark_oak",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "z",
+				"legs": "none"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_middle_dark_oak",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_dark_oak",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_two_side_dark_oak",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_dark_oak",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "z",
+				"legs": "both"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_dark_oak",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "z",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_dark_oak",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "z",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_dark_oak",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "z",
+				"legs": "left"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_left_dark_oak",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "z",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_top_dark_oak",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "z",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_support_one_side_dark_oak",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"variant": "dark_oak",
+				"axis": "z",
+				"legs": "right"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/generated/bench_leg_right_dark_oak",
+				"y": 270
+			}
+		}
+	]
+}

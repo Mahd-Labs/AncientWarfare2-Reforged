@@ -1,0 +1,22 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "construction",
+  "pattern": [
+    "PSA"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "A": {
+      "item": "minecraft:diamond_axe"
+    },
+    "S": {
+      "item": "minecraft:diamond_shovel"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:worksite_upgrade_quality_tools_2",
+    "count": 1
+  }
+}

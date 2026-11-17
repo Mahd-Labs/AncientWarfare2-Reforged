@@ -1,0 +1,113 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ancientwarfare:item/npc/spawner_base",
+    "layer1": "ancientwarfare:item/npc/spawner_overlay_bottom",
+    "layer2": "ancientwarfare:item/npc/spawner_overlay_top",
+    "layer3": "ancientwarfare:item/npc/spawner_siege_engineer"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "ancientwarfare:npc_variant": 0.01
+      },
+      "model": "ancientwarfare:item/npc/npc_spawner_archer"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:npc_variant": 0.02
+      },
+      "model": "ancientwarfare:item/npc/npc_spawner_bard"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:npc_variant": 0.03
+      },
+      "model": "ancientwarfare:item/npc/npc_spawner_commander"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:npc_variant": 0.04
+      },
+      "model": "ancientwarfare:item/npc/npc_spawner_courier"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:npc_variant": 0.05
+      },
+      "model": "ancientwarfare:item/npc/npc_spawner_craftsman"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:npc_variant": 0.06
+      },
+      "model": "ancientwarfare:item/npc/npc_spawner_engineer"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:npc_variant": 0.07
+      },
+      "model": "ancientwarfare:item/npc/npc_spawner_farmer"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:npc_variant": 0.08
+      },
+      "model": "ancientwarfare:item/npc/npc_spawner_lumberjack"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:npc_variant": 0.09
+      },
+      "model": "ancientwarfare:item/npc/npc_spawner_medic"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:npc_variant": 0.1
+      },
+      "model": "ancientwarfare:item/npc/npc_spawner_miner"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:npc_variant": 0.11
+      },
+      "model": "ancientwarfare:item/npc/npc_spawner_priest"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:npc_variant": 0.12
+      },
+      "model": "ancientwarfare:item/npc/npc_spawner_researcher"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:npc_variant": 0.13
+      },
+      "model": "ancientwarfare:item/npc/npc_spawner_trader"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:npc_variant": 0.14
+      },
+      "model": "ancientwarfare:item/npc/npc_spawner_soldier"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:npc_variant": 0.15
+      },
+      "model": "ancientwarfare:item/npc/npc_spawner_civilian_female"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:npc_variant": 0.16
+      },
+      "model": "ancientwarfare:item/npc/npc_spawner_civilian_male"
+    },
+    {
+      "predicate": {
+        "ancientwarfare:npc_variant": 0.17
+      },
+      "model": "ancientwarfare:item/npc/npc_spawner_spellcaster"
+    }
+  ]
+}

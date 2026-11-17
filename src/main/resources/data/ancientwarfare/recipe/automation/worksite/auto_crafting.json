@@ -1,0 +1,30 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "mass_production",
+  "pattern": [
+    "_C_",
+    "GWG",
+    "_I_"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:chests"
+    },
+    "W": {
+      "tag": "c:player_workstations/crafting_tables"
+    },
+    "G": {
+      "tag": "c:gears/wooden"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "_": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:auto_crafting",
+    "count": 1
+  }
+}

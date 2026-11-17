@@ -1,0 +1,25 @@
+{
+  "type": "ancientwarfare:research_shapeless",
+  "research": "ballistics",
+  "ingredients": [
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "ancientwarfare:cluster_charge",
+      "count": 4
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "ancientwarfare:explosive_charge",
+      "count": 4
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "ancientwarfare:iron_casing",
+      "count": 4
+    }
+  ],
+  "result": {
+    "id": "ancientwarfare:ammo_grape_shot_15",
+    "count": 4
+  }
+}

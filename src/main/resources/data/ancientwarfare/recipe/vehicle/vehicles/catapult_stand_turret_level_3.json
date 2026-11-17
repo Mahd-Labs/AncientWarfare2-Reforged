@@ -1,0 +1,29 @@
+{
+  "type": "ancientwarfare:research_shapeless",
+  "research": "siege_warfare",
+  "ingredients": [
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "ancientwarfare:iron_core_wood",
+      "count": 5
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "ancientwarfare:torsion_unit",
+      "count": 3
+    },
+    {
+      "item": "ancientwarfare:equipment_bay"
+    },
+    {
+      "item": "ancientwarfare:turret_components"
+    }
+  ],
+  "result": {
+    "id": "ancientwarfare:spawner_catapult_stand_turret",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{spawnData:{level:3}}"
+    }
+  }
+}

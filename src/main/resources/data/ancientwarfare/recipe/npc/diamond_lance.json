@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    " # ",
+    "#S#"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:rods/wooden"
+    },
+    "#": {
+      "tag": "c:gems/diamond"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:diamond_lance",
+    "count": 1
+  }
+}

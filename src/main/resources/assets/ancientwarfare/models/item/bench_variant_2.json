@@ -1,0 +1,21 @@
+{
+	"parent": "minecraft:block/block",
+	"loader": "neoforge:composite",
+	"children": {
+		"part0": {
+			"parent": "ancientwarfare:block/structure/generated/bench_top_birch"
+		},
+		"part1": {
+			"parent": "ancientwarfare:block/structure/generated/bench_support_two_side_birch"
+		},
+		"part2": {
+			"parent": "ancientwarfare:block/structure/generated/bench_leg_left_birch"
+		},
+		"part3": {
+			"parent": "ancientwarfare:block/structure/generated/bench_leg_right_birch"
+		}
+	},
+	"textures": {
+		"particle": "minecraft:block/oak_planks"
+	}
+}

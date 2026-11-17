@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"ancientwarfare:coin_stack_ancient",
+		"ancientwarfare:coin_stack_copper",
+		"ancientwarfare:coin_stack_gold",
+		"ancientwarfare:coin_stack_silver",
+		"ancientwarfare:urn"
+	]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "ancientwarfare:research_shapeless",
+  "research": "ballistics",
+  "ingredients": [
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:ingots/iron",
+      "count": 7
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:feathers",
+      "count": 5
+    }
+  ],
+  "result": {
+    "id": "ancientwarfare:ammo_ballista_bolt_iron",
+    "count": 8
+  }
+}

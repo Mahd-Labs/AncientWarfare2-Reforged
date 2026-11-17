@@ -1,0 +1,24 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "theory_of_gravity",
+  "pattern": [
+    "IGI",
+    "GWG",
+    "IWI"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:gears/iron"
+    },
+    "W": {
+      "tag": "c:gears/wooden"
+    },
+    "I": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:waterwheel_generator",
+    "count": 1
+  }
+}

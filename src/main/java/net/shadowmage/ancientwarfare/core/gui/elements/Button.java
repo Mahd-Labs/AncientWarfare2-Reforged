@@ -1,0 +1,85 @@
+package net.shadowmage.ancientwarfare.core.gui.elements;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.resources.language.I18n;
+import net.shadowmage.ancientwarfare.core.gui.GuiContainerBase.ActivationEvent;
+import net.shadowmage.ancientwarfare.core.gui.Listener;
+import net.shadowmage.ancientwarfare.core.util.RenderTools;
+
+public class Button extends GuiElement {
+
+	private boolean pressed = false;
+	protected String text;
+	protected int textX;
+	protected int textY;
+
+	public Button(int topLeftX, int topLeftY, int width, int height, String text) {
+		super(topLeftX, topLeftY, width, height);
+		this.setText(text);
+		this.setTooltipIfFound(text);
+		this.addNewListener(new Listener(Listener.MOUSE_UP) {
+			@Override
+			public boolean onEvent(GuiElement widget, ActivationEvent evt) {
+				if (pressed && enabled && visible && isMouseOverElement(evt.mx, evt.my)) {
+					playClickSound();
+					onPressed(evt.mButton);
+				}
+				pressed = false;
+				return true;
+			}
+		});
+		this.addNewListener(new Listener(Listener.MOUSE_DOWN) {
+			@Override
+			public boolean onEvent(GuiElement widget, ActivationEvent evt) {
+				if (enabled && visible && isMouseOverElement(evt.mx, evt.my)) {
+					pressed = true;
+				}
+				return true;
+			}
+		});
+	}
+
+	public final void setText(String text) {
+		this.text = I18n.get(text);
+		int tw = Minecraft.getInstance().font.width(this.text);
+		if (tw > width) {
+			width = tw;
+		}
+		textX = (width - tw) / 2;
+		textY = (height - 8) / 2;
+	}
+
+	@Override
+	public void render(GuiGraphics graphics, int mouseX, int mouseY, float partialTick) {
+		if (visible) {
+			int textureSize = 256;
+			int startX = 0;
+			int startY = enabled ? isMouseOverElement(mouseX, mouseY) ? 80 : 40 : 0;
+			int textColor = startY == 80 ? 0xa0a0a0ff : 0xffffffff;//grey or white
+			int usedWidth = 256;
+			int usedHeight = 40;
+			RenderTools.renderQuarteredTexture(graphics, widgetTexture1, textureSize, textureSize, startX, startY, usedWidth, usedHeight, renderX, renderY, width, height);
+			graphics.drawString(Minecraft.getInstance().font, text, renderX + textX, renderY + textY, textColor, true);
+			graphics.setColor(1.f, 1.f, 1.f, 1.f);
+		}
+	}
+
+	/*
+	 * sub-classes may override this as an on-pressed callback
+	 * method is called whenever the 'pressed' sound is played.
+	 * uses built-in click listener for sound to trigger method
+	 */
+	protected void onPressed() {
+
+	}
+
+	/*
+	 * Button-sensitive version of onPressed. 0 = LMB, 1 = RMB
+	 * @param mButton
+	 */
+	protected void onPressed(int mButton) {
+		onPressed(); // backwards compatibility
+	}
+
+}

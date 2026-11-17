@@ -1,0 +1,21 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "theory_of_gravity",
+  "pattern": [
+    "GPG",
+    "PPP",
+    "GGG"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:ingots/iron"
+    },
+    "G": {
+      "tag": "c:glass_panes"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:flywheel_storage_medium",
+    "count": 1
+  }
+}

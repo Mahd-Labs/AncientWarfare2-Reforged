@@ -1,0 +1,57 @@
+{
+	"parent": "minecraft:block/block",
+	"loader": "neoforge:composite",
+	"children": {
+		"part0": {
+			"parent": "ancientwarfare:block/structure/generated/table_top_dark_oak"
+		},
+		"part1": {
+			"parent": "ancientwarfare:block/structure/generated/table_leg_dark_oak"
+		},
+		"part2": {
+			"parent": "ancientwarfare:block/structure/generated/table_leg_dark_oak",
+			"transform": {
+				"rotation": [
+					{
+						"y": -270
+					},
+					{
+						"x": 0
+					}
+				],
+				"origin": "center"
+			}
+		},
+		"part3": {
+			"parent": "ancientwarfare:block/structure/generated/table_leg_dark_oak",
+			"transform": {
+				"rotation": [
+					{
+						"y": -90
+					},
+					{
+						"x": 0
+					}
+				],
+				"origin": "center"
+			}
+		},
+		"part4": {
+			"parent": "ancientwarfare:block/structure/generated/table_leg_dark_oak",
+			"transform": {
+				"rotation": [
+					{
+						"y": -180
+					},
+					{
+						"x": 0
+					}
+				],
+				"origin": "center"
+			}
+		}
+	},
+	"textures": {
+		"particle": "minecraft:block/oak_planks"
+	}
+}

@@ -1,0 +1,32 @@
+{
+  "type": "research",
+  "name": "seafaring",
+  "time": 200,
+  "dependencies": [
+    "the_wheel",
+    "mathematics",
+    "trade"
+  ],
+  "resources": [
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "minecraft:planks",
+      "count": 12
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:ingots/iron",
+      "count": 8
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "minecraft:white_wool",
+      "count": 10
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:strings",
+      "count": 12
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+	"parent": "minecraft:block/block",
+	"loader": "neoforge:composite",
+	"children": {
+		"part0": {
+			"parent": "ancientwarfare:block/structure/generated/chair_acacia",
+			"transform": {
+				"rotation": [
+					{
+						"y": -180
+					},
+					{
+						"x": 0
+					}
+				],
+				"origin": "center"
+			}
+		}
+	},
+	"textures": {
+		"particle": "minecraft:block/oak_planks"
+	}
+}

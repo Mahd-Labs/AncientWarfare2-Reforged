@@ -1,0 +1,30 @@
+{
+  "type": "research",
+  "name": "ballistics",
+  "time": 200,
+  "dependencies": [
+    "theory_of_gravity"
+  ],
+  "resources": [
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:strings",
+      "count": 6
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:dyes/black",
+      "count": 6
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "minecraft:paper",
+      "count": 12
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "minecraft:torch",
+      "count": 6
+    }
+  ]
+}

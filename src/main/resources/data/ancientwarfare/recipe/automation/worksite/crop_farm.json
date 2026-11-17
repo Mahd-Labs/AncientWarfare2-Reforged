@@ -1,0 +1,27 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "agriculture",
+  "pattern": [
+    "___",
+    "GWG",
+    "_C_"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:chests"
+    },
+    "W": {
+      "item": "minecraft:iron_hoe"
+    },
+    "G": {
+      "tag": "c:gears/wooden"
+    },
+    "_": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:crop_farm",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "engineering",
+  "pattern": [
+    "PSA"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "A": {
+      "item": "minecraft:iron_axe"
+    },
+    "S": {
+      "item": "minecraft:iron_shovel"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:worksite_upgrade_quality_tools_1",
+    "count": 1
+  }
+}

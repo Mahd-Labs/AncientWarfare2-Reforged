@@ -1,0 +1,28 @@
+{
+  "type": "research",
+  "name": "mathematics",
+  "time": 200,
+  "dependencies": [
+    "engineering"
+  ],
+  "resources": [
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "minecraft:book",
+      "count": 3
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:dusts/redstone",
+      "count": 5
+    },
+    {
+      "item": "minecraft:note_block"
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "minecraft:charcoal",
+      "count": 4
+    }
+  ]
+}

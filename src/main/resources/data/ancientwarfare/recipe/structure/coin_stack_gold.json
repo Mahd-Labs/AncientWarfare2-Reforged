@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GGG",
+    "G G",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "type": "neoforge:components",
+      "items": "ancientwarfare:coin",
+      "components": {
+        "minecraft:custom_data": "{metal:\"gold\"}"
+      },
+      "strict": false
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:coin_stack_gold",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{size:8}"
+    }
+  }
+}

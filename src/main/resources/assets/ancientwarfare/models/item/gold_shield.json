@@ -1,0 +1,14 @@
+{
+  "parent": "ancientwarfare:item/wooden_shield",
+  "textures": {
+    "0": "ancientwarfare:item/npc/gold_shield"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1.0
+      },
+      "model": "ancientwarfare:item/npc/gold_shield_blocking"
+    }
+  ]
+}

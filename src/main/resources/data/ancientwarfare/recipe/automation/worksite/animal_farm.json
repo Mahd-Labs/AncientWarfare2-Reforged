@@ -1,0 +1,27 @@
+{
+  "type": "ancientwarfare:research_shaped",
+  "research": "animal_husbandry",
+  "pattern": [
+    "___",
+    "GWG",
+    "_C_"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:chests"
+    },
+    "W": {
+      "item": "minecraft:iron_sword"
+    },
+    "G": {
+      "tag": "c:gears/wooden"
+    },
+    "_": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "ancientwarfare:animal_farm",
+    "count": 1
+  }
+}

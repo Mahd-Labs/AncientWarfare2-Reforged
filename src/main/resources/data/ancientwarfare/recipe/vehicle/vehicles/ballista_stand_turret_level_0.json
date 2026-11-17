@@ -1,0 +1,34 @@
+{
+  "type": "ancientwarfare:research_shapeless",
+  "research": "siege_warfare",
+  "ingredients": [
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "ancientwarfare:rough_wood",
+      "count": 5
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:strings",
+      "count": 8
+    },
+    {
+      "type": "ancientwarfare:item_count",
+      "item": "ancientwarfare:torsion_unit",
+      "count": 2
+    },
+    {
+      "item": "ancientwarfare:equipment_bay"
+    },
+    {
+      "item": "ancientwarfare:turret_components"
+    }
+  ],
+  "result": {
+    "id": "ancientwarfare:spawner_ballista_stand_turret",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": "{spawnData:{level:0}}"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "research",
+  "name": "the_wheel",
+  "time": 200,
+  "dependencies": [
+    "engineering"
+  ],
+  "resources": [
+    {
+      "item": "minecraft:hopper"
+    },
+    {
+      "item": "minecraft:dropper"
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "c:stones",
+      "count": 4
+    },
+    {
+      "type": "ancientwarfare:tag_count",
+      "tag": "minecraft:planks",
+      "count": 4
+    }
+  ]
+}

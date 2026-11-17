@@ -1,0 +1,39 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"facing": "north"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/drafting_station",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"facing": "south"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/drafting_station"
+			}
+		},
+		{
+			"when": {
+				"facing": "west"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/drafting_station",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"facing": "east"
+			},
+			"apply": {
+				"model": "ancientwarfare:block/structure/drafting_station",
+				"y": 270
+			}
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "ancientwarfare:block/structure/advanced_spawner",
+	"textures": {
+		"particle": "ancientwarfare:block/structure/advanced_spawner",
+		"all": "ancientwarfare:block/structure/advanced_spawner"
+	}
+}
