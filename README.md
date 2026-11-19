@@ -27,3 +27,9 @@ react a little faster to changes, aiming should be a little more precise, etc. E
 GPL-3.0-or-later ([LICENSE.txt](LICENSE.txt)); what was changed and when: [NOTICE](NOTICE). Credits for the original
 mod and its art, structures, skins, music and sounds: [CREDITS.md](CREDITS.md). The port's code was written largely
 by AI agents (Claude, by Anthropic): see [AI_DISCLOSURE.md](AI_DISCLOSURE.md).
+
+Original project: https://www.curseforge.com/minecraft/mc-mods/ancient-warfare-2
+Original source: https://github.com/P3pp3rF1y/AncientWarfare2 (GPL-3.0)
+
+Please report problems with this port on its own issue tracker, not to the original authors:
+https://github.com/Mahd-Labs/AncientWarfare2-Reforged/issues
