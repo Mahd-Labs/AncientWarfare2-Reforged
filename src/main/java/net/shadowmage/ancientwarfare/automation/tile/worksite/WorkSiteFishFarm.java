@@ -57,7 +57,12 @@ public class WorkSiteFishFarm extends TileWorksiteBoundedInventory {
 			}
 			if (fish) {
 				LootParams params = new LootParams.Builder((ServerLevel) level).withParameter(LootContextParams.ORIGIN, Vec3.atCenterOf(worldPosition)).withParameter(LootContextParams.TOOL, ItemStack.EMPTY).withLuck(getFortune()).create(LootContextParamSets.FISHING);
-				List<ItemStack> fishStacks = level.getServer().reloadableRegistries().getLootTable(BuiltInLootTables.FISHING).getRandomItems(params);
+				//the fishing loot table holds other mods' entries and functions; one that throws skips this catch
+				List<List<ItemStack>> rolled = new java.util.ArrayList<>(1);
+				if (!foreignBlocks.runOther("the fishing loot table", "fishing", () -> rolled.add(level.getServer().reloadableRegistries().getLootTable(BuiltInLootTables.FISHING).getRandomItems(params)))) {
+					return false;
+				}
+				List<ItemStack> fishStacks = rolled.get(0);
 
 				if (!InventoryTools.canInventoryHold(mainInventory, fishStacks)) {
 					return false;

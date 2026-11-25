@@ -112,7 +112,9 @@ public final class WorkSiteQuarry extends TileWorksiteBoundedInventory {
 		 * while the current position is invalid, increment to a valid one. generally the incremental scan
 		 * should have take care of this prior to processWork being called, but just in case...
 		 */
-		while (!canHarvest(current)) {
+		//canHarvest and harvestBlock call the block's own code; a block that throws is skipped (the guard answers
+		//false for it until its skip time is over), so the quarry moves past it instead of taking the server down
+		while (!foreignBlocks.run(level, current, "checking whether it can be dug", () -> canHarvest(current))) {
 			if (!incrementPosition()) {
 				/*
 				 * if no valid position was found, set finished, exit
@@ -124,7 +126,8 @@ public final class WorkSiteQuarry extends TileWorksiteBoundedInventory {
 		/*
 		 * if made it this far, a valid position was found, break it and add blocks to inventory
 		 */
-		return harvestBlock(current);
+		BlockPos digPos = current;
+		return foreignBlocks.run(level, digPos, "digging", () -> harvestBlock(digPos));
 	}
 
 	private boolean harvestBlock(BlockPos current) {

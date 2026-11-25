@@ -64,6 +64,13 @@ public abstract class TileWorksiteBase extends TileUpdatable implements ITickabl
 	private int workRetryDelay = 20;
 
 	private boolean active = false;
+	/* every call a worksite makes into other mods' block, entity or loot code goes through this (issue 4: a
+	 * throwing crop took the server down from this block entity's tick) */
+	protected final ForeignBlockGuard foreignBlocks = new ForeignBlockGuard(this);
+
+	public ForeignBlockGuard getForeignBlockGuard() {
+		return foreignBlocks;
+	}
 	private int timeSinceLastActiveCheck = 0;
 
 	public TileWorksiteBase(BlockEntityType<?> type, BlockPos pos, BlockState state) {
@@ -129,7 +136,23 @@ public abstract class TileWorksiteBase extends TileUpdatable implements ITickabl
 	protected abstract void updateWorksite();
 
 	@Override
+	/*
+	 * the last line of defence. Anything that still throws inside a worksite's tick is
+	 * caught here: logged once per worksite type with the stack trace, and the worksite rests
+	 * ForeignBlockGuard.SKIP_TICKS before it tries again. Without this the exception ends the server, and the
+	 * worksite's chunk loader brings the crash back at the next start.
+	 */
 	public final void update() {
+		try {
+			updateUnguarded();
+		}
+		catch (RuntimeException e) {
+			workRetryDelay = ForeignBlockGuard.SKIP_TICKS;
+			ForeignBlockGuard.worksiteFailed(this, e);
+		}
+	}
+
+	private void updateUnguarded() {
 		if (level == null || level.isClientSide || level.getDirectSignalTo(worldPosition) != 0) {
 			return;
 		}

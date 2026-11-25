@@ -67,6 +67,10 @@ public final class AncientWarfareAutomation {
 		statics.register(modBus, container);
 
 		AWAutomationBlocks.register(modBus);
+		if (!net.neoforged.fml.loading.FMLEnvironment.production) {
+			//stand-ins for other mods' broken crops, for the GameTests only; not in the released game
+			net.shadowmage.ancientwarfare.automation.gametest.GameTestBlocks.register(modBus);
+		}
 		AWAutomationItems.register(modBus);
 		AWAutomationTab.register(modBus);
 

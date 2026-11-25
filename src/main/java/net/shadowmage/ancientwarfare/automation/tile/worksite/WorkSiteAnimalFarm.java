@@ -277,6 +277,7 @@ public class WorkSiteAnimalFarm extends TileWorksiteBoundedInventory {
 		sheepToBreed.clear();
 		chickensToBreed.clear();
 		entitiesToCull.clear();
+		sheepToShear.clear(); //it was never cleared and kept growing with stale ids
 
 		List<Animal> entityList = EntityTools.getEntitiesWithinBounds(level, Animal.class, getWorkBoundsMin(), getWorkBoundsMax());
 
@@ -381,9 +382,14 @@ public class WorkSiteAnimalFarm extends TileWorksiteBoundedInventory {
 			}
 			if (animalA.isAlive() && animalB.isAlive()) {
 				Player fakePlayer = AWFakePlayer.get(level);
-				((Animal) animalA).setInLove(fakePlayer);
-				((Animal) animalB).setInLove(fakePlayer);
-				return true;
+				Entity a = animalA;
+				Entity b = animalB;
+				//a modded animal's own code runs here
+				return foreignBlocks.runEntity(a, "breeding", () -> {
+					((Animal) a).setInLove(fakePlayer);
+					((Animal) b).setInLove(fakePlayer);
+					return true;
+				});
 			}
 		}
 		return false;
@@ -397,17 +403,24 @@ public class WorkSiteAnimalFarm extends TileWorksiteBoundedInventory {
 		if (shearsSlot < 0 || sheepToShear.isEmpty()) {
 			return false;
 		}
-		Sheep sheep = (Sheep) level.getEntity(sheepToShear.remove(0));
+		//the id can belong to another entity by now (a plain cast threw ClassCastException)
+		Sheep sheep = level.getEntity(sheepToShear.remove(0)) instanceof Sheep s ? s : null;
 		ItemStack shears = toolInventory.getStackInSlot(shearsSlot);
-		if (sheep == null || !sheep.isShearable(null, shears, level, worldPosition)) {
+		if (sheep == null) {
 			return false;
 		}
-		//shears do not get damaged, if they did this would need clone of the stack and additional setStackInSlot call
-		NonNullList<ItemStack> items = InventoryTools.toNonNullList(sheep.onSheared(null, shears, level, worldPosition));
-		for (ItemStack item : items) {
-			InventoryTools.insertOrDropItem(mainInventory, item, level, worldPosition);
-		}
-		return true;
+		//a modded sheep's own code runs here
+		return foreignBlocks.runEntity(sheep, "shearing", () -> {
+			if (!sheep.isShearable(null, shears, level, worldPosition)) {
+				return false;
+			}
+			//shears do not get damaged, if they did this would need clone of the stack and additional setStackInSlot call
+			NonNullList<ItemStack> items = InventoryTools.toNonNullList(sheep.onSheared(null, shears, level, worldPosition));
+			for (ItemStack item : items) {
+				InventoryTools.insertOrDropItem(mainInventory, item, level, worldPosition);
+			}
+			return true;
+		});
 	}
 
 	private boolean tryCulling() {
@@ -424,7 +437,17 @@ public class WorkSiteAnimalFarm extends TileWorksiteBoundedInventory {
 
 				animal.removeArrowTime = 10;
 				entityCulledIds.add(animal.getId());
-				animal.hurt(level.damageSources().generic(), animal.getHealth() + 1);
+				//the animal's own death and loot code runs here (modded animals); the id is always cleared
+				Animal culled = animal;
+				boolean killed = foreignBlocks.runEntity(culled, "culling", () -> {
+					culled.hurt(level.damageSources().generic(), culled.getHealth() + 1);
+					return true;
+				});
+				if (!killed) {
+					entityCulledIds.remove(culled.getId());
+					culledDrops.remove(culled.getId());
+					return false;
+				}
 				List<ItemStack> capturedDrops = culledDrops.remove(animal.getId());
 				for (ItemStack stack : capturedDrops == null ? Collections.<ItemStack>emptyList() : capturedDrops) {
 					if (!stack.isEmpty()) {

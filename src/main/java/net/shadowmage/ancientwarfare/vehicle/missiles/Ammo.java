@@ -189,8 +189,21 @@ public abstract class Ammo implements IAmmo {
 		if (!AWVehicleStatics.generalSettings.shotsDestroysBlocks) {
 			return;
 		}
-		BlockTools.breakBlockAndDrop(world, pos);
+		//a hit block of another mod whose drops or removal throw must not end the missile's
+		//entity tick (and with it the server); the block is left standing, logged once per block type
+		try {
+			BlockTools.breakBlockAndDrop(world, pos);
+		}
+		catch (RuntimeException e) {
+			String id = net.minecraft.core.registries.BuiltInRegistries.BLOCK.getKey(world.getBlockState(pos).getBlock()).toString();
+			if (BROKEN_BLOCKS_LOGGED.add(id)) {
+				net.shadowmage.ancientwarfare.AncientWarfare.LOG.warn("A siege shot could not break {} at {}: the block threw an exception; it is left standing. "
+						+ "Reported once per block type.", id, pos.toShortString(), e);
+			}
+		}
 	}
+
+	private static final java.util.Set<String> BROKEN_BLOCKS_LOGGED = java.util.concurrent.ConcurrentHashMap.newKeySet();
 
 	protected void igniteBlock(Level world, int x, int y, int z, int maxSearch) {
 		if (!AWVehicleStatics.generalSettings.blockFires) {

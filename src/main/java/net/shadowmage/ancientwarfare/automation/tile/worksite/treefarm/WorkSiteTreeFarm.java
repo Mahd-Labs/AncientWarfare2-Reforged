@@ -93,9 +93,8 @@ public class WorkSiteTreeFarm extends TileWorksiteFarm {
 		BlockPos position = it.next();
 		it.remove();
 
-		BlockState state = level.getBlockState(position);
-
-		return canFertilize(level, position, state) && fertilize(position);
+		//guarded calls into the sapling's own code
+		return foreignBlocks.run(level, position, "fertilizing", () -> canFertilize(level, position, level.getBlockState(position)) && fertilize(position));
 
 	}
 
@@ -115,7 +114,7 @@ public class WorkSiteTreeFarm extends TileWorksiteFarm {
 
 				ItemStack stack = plantable.get().getA();
 				ISapling sapling = plantable.get().getB();
-				if (canReplace(position) && tryPlantingSapling(position, stack, sapling)) {
+				if (foreignBlocks.run(level, position, "planting", () -> canReplace(position) && tryPlantingSapling(position, stack, sapling))) {
 					InventoryTools.removeItems(plantableInventory, stack, 1);
 					return true;
 				}
@@ -137,20 +136,33 @@ public class WorkSiteTreeFarm extends TileWorksiteFarm {
 
 		Iterator<BlockPos> it = wood ? trunkBlocksToChop.iterator() : leafBlocksToChop.iterator();
 		BlockPos position = it.next();
+		if (foreignBlocks.isSkipped(level, position)) {
+			it.remove();
+			return false;
+		}
 		BlockState state = level.getBlockState(position);
 		if (state.isAir()) {
 			it.remove();
 			return false;
 		}
 
-		IBlockExtraDrop extraDrop = TreeFarmRegistry.getBlockExtraDrop(state);
-		NonNullList<ItemStack> extraDrops = extraDrop.getDrops(level, position, state, getFortune());
-		if (!harvestBlock(position)) {
-			return false;
+		//guarded calls into the log's or leaf's own code (drops, breaking); a block that throws is dropped from
+		//the list (it stays in the list when the output is full, as before)
+		boolean[] threw = {true};
+		boolean chopped = foreignBlocks.run(level, position, "chopping", () -> {
+			IBlockExtraDrop extraDrop = TreeFarmRegistry.getBlockExtraDrop(state);
+			NonNullList<ItemStack> extraDrops = extraDrop.getDrops(level, position, state, getFortune());
+			boolean done = harvestBlock(position);
+			threw[0] = false;
+			if (done) {
+				InventoryTools.insertOrDropItems(inventoryForDrops, extraDrops, level, position);
+			}
+			return done;
+		});
+		if (chopped || threw[0]) {
+			it.remove();
 		}
-		it.remove();
-		InventoryTools.insertOrDropItems(inventoryForDrops, extraDrops, level, position);
-		return true;
+		return chopped;
 	}
 
 	private boolean shearBlock() {
@@ -161,16 +173,15 @@ public class WorkSiteTreeFarm extends TileWorksiteFarm {
 		Iterator<BlockPos> it = blocksToShear.iterator();
 		BlockPos position = it.next();
 		it.remove();
-		Block block = level.getBlockState(position).getBlock();
-		if (block instanceof IShearable) {
-			Optional<ItemStack> shears = InventoryTools.stream(miscInventory).filter(s -> s.getItem() instanceof ShearsItem).findFirst();
-
-			if (shears.isPresent() && shear(position, (IShearable) block, shears.get())) {
-				return true;
+		//guarded calls into the leaf's own code
+		return foreignBlocks.run(level, position, "shearing", () -> {
+			Block block = level.getBlockState(position).getBlock();
+			if (block instanceof IShearable) {
+				Optional<ItemStack> shears = InventoryTools.stream(miscInventory).filter(s -> s.getItem() instanceof ShearsItem).findFirst();
+				return shears.isPresent() && shear(position, (IShearable) block, shears.get());
 			}
-		}
-
-		return false;
+			return false;
+		});
 	}
 
 	private boolean shear(BlockPos position, IShearable block, ItemStack shears) {

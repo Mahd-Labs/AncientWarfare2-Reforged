@@ -151,6 +151,25 @@ public class WorkSiteCropFarm extends TileWorksiteFarm {
 		BlockPos position;
 		while (it.hasNext() && (position = it.next()) != null) {
 			it.remove();
+			if (foreignBlocks.isSkipped(level, position)) {
+				continue;
+			}
+			BlockPos pos = position;
+			//guarded, the crop's own code runs here (issue 4: Farmer's Delight tomatoes threw and took the server down)
+			int[] result = {0}; //0 not a bone meal target (or it threw), look at the next; 1 done; 2 no bone meal
+			foreignBlocks.run(level, pos, "fertilizing", () -> {
+				result[0] = fertilizeAt(pos);
+				return true;
+			});
+			if (result[0] != 0) {
+				return result[0] == 1;
+			}
+		}
+		return false;
+	}
+
+	private int fertilizeAt(BlockPos position) {
+		{
 			BlockState state = level.getBlockState(position);
 			Block block = state.getBlock();
 			if (block instanceof BonemealableBlock) {
@@ -165,21 +184,24 @@ public class WorkSiteCropFarm extends TileWorksiteFarm {
 							miscInventory.extractItem(slot, 1, false);
 							level.levelEvent(1505, position, 15);
 						}
-						block = level.getBlockState(position).getBlock();
+						//ask with the state after the bone meal; it was asked with the old state, and a block that
+						//grew into another block (budding tomatoes -> tomato vine) was handed a state it does not have
+						BlockState after = level.getBlockState(position);
+						block = after.getBlock();
 						if (block instanceof BonemealableBlock) {
-							if (((BonemealableBlock) block).isValidBonemealTarget(level, position, state)) {
+							if (((BonemealableBlock) block).isValidBonemealTarget(level, position, after)) {
 								blocksToFertilize.add(position);
 							} else if (isFarmable(block, position)) {
 								blocksToHarvest.add(position);
 							}
 						}
-						return true;
+						return 1;
 					}
 				}
-				return false;
+				return 2;
 			}
 		}
-		return false;
+		return 0;
 	}
 
 	private boolean tryPlant() {
@@ -187,6 +209,25 @@ public class WorkSiteCropFarm extends TileWorksiteFarm {
 		BlockPos position;
 		while (it.hasNext() && (position = it.next()) != null) {
 			it.remove();
+			if (foreignBlocks.isSkipped(level, position)) {
+				continue;
+			}
+			BlockPos pos = position;
+			int[] result = {0}; //0 nothing tried, 1 planted, 2 tried and nothing fitted
+			foreignBlocks.run(level, pos, "planting", () -> {
+				result[0] = plantAt(pos);
+				return true;
+			});
+			if (result[0] != 0) {
+				return result[0] == 1;
+			}
+		}
+		return false;
+	}
+
+	/* 0: the spot cannot be planted, look at the next; 1: planted; 2: nothing in the inventory could be planted */
+	private int plantAt(BlockPos position) {
+		{
 			if (canReplace(position)) {
 				for (int slot = 0; slot < plantableInventory.getSlots(); slot++) {
 					ItemStack stack = plantableInventory.getStackInSlot(slot);
@@ -197,14 +238,14 @@ public class WorkSiteCropFarm extends TileWorksiteFarm {
 						ItemStack clone = stack.copy();
 						if (tryPlace(clone, position, Direction.UP)) {
 							plantableInventory.extractItem(slot, 1, false);
-							return true;
+							return 1;
 						}
 					}
 				}
-				return false;
+				return 2;
 			}
 		}
-		return false;
+		return 0;
 	}
 
 	private boolean tryHarvest() {
@@ -212,9 +253,12 @@ public class WorkSiteCropFarm extends TileWorksiteFarm {
 		BlockPos position;
 		if (it.hasNext() && (position = it.next()) != null) {
 			it.remove();
-			BlockState state = level.getBlockState(position);
-			ICrop crop = CropFarmRegistry.getCrop(state);
-			return crop.harvest(level, state, position, getFortune(), inventoryForDrops);
+			BlockPos pos = position;
+			return foreignBlocks.run(level, pos, "harvesting", () -> {
+				BlockState state = level.getBlockState(pos);
+				ICrop crop = CropFarmRegistry.getCrop(state);
+				return crop.harvest(level, state, pos, getFortune(), inventoryForDrops);
+			});
 		}
 		return false;
 	}

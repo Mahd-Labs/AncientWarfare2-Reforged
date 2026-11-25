@@ -219,6 +219,53 @@ public class AutomationGameTests {
 		});
 	}
 
+	/* GitHub issue 4: a crop of another mod that throws while fertilized or harvested must not take the server
+	 * down; the farm skips that block (ForeignBlockGuard) and keeps working the rest */
+	@GameTest(templateNamespace = AncientWarfare.MOD_ID, template = TEMPLATE, timeoutTicks = 600)
+	public static void cropFarmSurvivesThrowingCrop(GameTestHelper helper) {
+		fill(helper, 3, 1, 3, 5, 1, 5, Blocks.FARMLAND);
+		helper.setBlock(4, 5, 4, Blocks.GLOWSTONE);
+		for (int x = 3; x <= 5; x++) {
+			for (int z = 3; z <= 5; z++) {
+				helper.setBlock(x, 2, z, Blocks.WHEAT.defaultBlockState().setValue(CropBlock.AGE, 7));
+			}
+		}
+		//one young throwing crop (fertilize path) and one ripe one (harvest path)
+		helper.setBlock(new BlockPos(3, 2, 3), GameTestBlocks.THROWING_CROP.get().defaultBlockState());
+		helper.setBlock(new BlockPos(5, 2, 5), GameTestBlocks.THROWING_CROP.get().defaultBlockState().setValue(CropBlock.AGE, 7));
+		BlockPos pos = new BlockPos(1, 2, 1);
+		helper.setBlock(pos, AWAutomationBlocks.CROP_FARM.get());
+		WorkSiteCropFarm farm = helper.getBlockEntity(pos);
+		farm.setBounds(helper.absolutePos(new BlockPos(3, 2, 3)), helper.absolutePos(new BlockPos(5, 2, 5)));
+		farm.miscInventory.setStackInSlot(0, new ItemStack(Items.BONE_MEAL, 16));
+		work(helper, farm);
+		helper.succeedWhen(() -> {
+			check(helper, farm.getForeignBlockGuard().skippedCount() >= 2, "both throwing crops are skipped, skipped: " + farm.getForeignBlockGuard().skippedCount());
+			check(helper, count(farm.mainInventory, Items.WHEAT) >= 7, "the 7 wheat plants were still harvested: " + count(farm.mainInventory, Items.WHEAT));
+			check(helper, helper.getBlockState(new BlockPos(3, 2, 3)).is(GameTestBlocks.THROWING_CROP.get()) && helper.getBlockState(new BlockPos(5, 2, 5)).is(GameTestBlocks.THROWING_CROP.get()), "the throwing crops are left alone");
+		});
+	}
+
+	/* GitHub issue 4, the cause: bone meal turned Farmer's Delight's budding tomatoes into the tomato vine, and the
+	 * farm asked the vine about the budding state (IllegalArgumentException, server down). It must ask with the new state */
+	@GameTest(templateNamespace = AncientWarfare.MOD_ID, template = TEMPLATE, timeoutTicks = 400)
+	public static void cropFarmFertilizesCropThatTurnsIntoAnotherBlock(GameTestHelper helper) {
+		fill(helper, 3, 1, 3, 5, 1, 5, Blocks.FARMLAND);
+		helper.setBlock(4, 5, 4, Blocks.GLOWSTONE);
+		helper.setBlock(new BlockPos(4, 2, 4), GameTestBlocks.BUDDING_CROP.get().defaultBlockState());
+		BlockPos pos = new BlockPos(1, 2, 1);
+		helper.setBlock(pos, AWAutomationBlocks.CROP_FARM.get());
+		WorkSiteCropFarm farm = helper.getBlockEntity(pos);
+		farm.setBounds(helper.absolutePos(new BlockPos(3, 2, 3)), helper.absolutePos(new BlockPos(5, 2, 5)));
+		farm.miscInventory.setStackInSlot(0, new ItemStack(Items.BONE_MEAL, 16));
+		work(helper, farm);
+		helper.succeedWhen(() -> {
+			check(helper, helper.getBlockState(new BlockPos(4, 2, 4)).is(GameTestBlocks.VINE_CROP.get()), "bone meal turned the budding crop into the vine");
+			check(helper, count(farm.miscInventory, Items.BONE_MEAL) < 16, "bone meal was used");
+			check(helper, farm.getForeignBlockGuard().skippedCount() == 0, "nothing threw (the vine was asked with its own state), skipped: " + farm.getForeignBlockGuard().skippedCount());
+		});
+	}
+
 	@GameTest(templateNamespace = AncientWarfare.MOD_ID, template = TEMPLATE, timeoutTicks = 800)
 	public static void treeFarmChopsAndReplants(GameTestHelper helper) {
 		fill(helper, 3, 1, 3, 5, 1, 5, Blocks.DIRT);
@@ -289,6 +336,29 @@ public class AutomationGameTests {
 				check(helper, count(quarry.mainInventory, Items.COBBLESTONE) >= 27, "the cobblestone is in the quarry inventory: " + count(quarry.mainInventory, Items.COBBLESTONE));
 				helper.succeed();
 			}
+		});
+	}
+
+	/* a block of another mod that throws while dug must not take the server down; the quarry digs past it */
+	@GameTest(templateNamespace = AncientWarfare.MOD_ID, template = TEMPLATE, timeoutTicks = 800)
+	public static void quarrySurvivesThrowingBlock(GameTestHelper helper) {
+		fill(helper, 3, 4, 3, 5, 4, 5, Blocks.STONE);
+		helper.setBlock(new BlockPos(4, 4, 4), GameTestBlocks.THROWING_BLOCK.get());
+		BlockPos pos = new BlockPos(1, 5, 1);
+		helper.setBlock(pos, AWAutomationBlocks.QUARRY.get());
+		WorkSiteQuarry quarry = helper.getBlockEntity(pos);
+		quarry.setBounds(helper.absolutePos(new BlockPos(3, 5, 3)), helper.absolutePos(new BlockPos(5, 5, 5)));
+		work(helper, quarry);
+		helper.succeedWhen(() -> {
+			for (int x = 3; x <= 5; x++) {
+				for (int z = 3; z <= 5; z++) {
+					if (x != 4 || z != 4) {
+						check(helper, helper.getBlockState(new BlockPos(x, 4, z)).isAir(), "the stone around the throwing block is dug at " + x + "," + z);
+					}
+				}
+			}
+			check(helper, helper.getBlockState(new BlockPos(4, 4, 4)).is(GameTestBlocks.THROWING_BLOCK.get()), "the throwing block is left alone");
+			check(helper, quarry.getForeignBlockGuard().skippedCount() >= 1, "the throwing block is skipped");
 		});
 	}
 

@@ -375,7 +375,14 @@ public class AWNPCStatics extends ModConfiguration {
 		if (foodValues.containsKey(name)) {
 			return foodValues.get(name);
 		}
-		FoodProperties food = stack.getFoodProperties(null);
+		FoodProperties food;
+		try {
+			food = stack.getFoodProperties(null);
+		}
+		catch (RuntimeException e) {
+			//a mod food that does not accept the documented null entity; not food for NPCs
+			return 0;
+		}
 		if (food != null) {
 			int healAmount = food.nutrition();
 			float saturationModifier = healAmount == 0 ? 0 : food.saturation() / (healAmount * 2F);

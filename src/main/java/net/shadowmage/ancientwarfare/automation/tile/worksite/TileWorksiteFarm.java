@@ -101,7 +101,10 @@ public abstract class TileWorksiteFarm extends TileWorksiteBoundedInventory {
 		}
 		if (!blocksToUpdate.isEmpty()) {
 			BlockPos pos = blocksToUpdate.poll();
-			scanBlockPosition(pos);
+			foreignBlocks.run(level, pos, "scanning", () -> {
+				scanBlockPosition(pos);
+				return true;
+			});
 		}
 		level.getProfiler().pop();
 		updateBlockWorksite();

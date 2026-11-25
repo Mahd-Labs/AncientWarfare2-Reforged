@@ -1178,7 +1178,7 @@ public abstract class NpcBase extends PathfinderMob implements IEntityWithComple
 				for (int y = minY; y <= maxY; y++) {
 					for (int z = minZ; z <= maxZ; z++) {
 						BlockState state = level().getBlockState(new BlockPos(x, y, z));
-						if (state.getBlock() instanceof BedBlock) {
+						if (isUsableBed(state)) {
 							if (state.getValue(BedBlock.PART) != BedPart.FOOT) {
 								continue;
 							}
@@ -1206,7 +1206,7 @@ public abstract class NpcBase extends PathfinderMob implements IEntityWithComple
 		}
 
 		BlockState state = level().getBlockState(cachedBedPos);
-		if (state.getBlock() instanceof BedBlock) {
+		if (isUsableBed(state)) {
 			return cachedBedPos;
 		} else {
 			foundBed = false;
@@ -1226,7 +1226,7 @@ public abstract class NpcBase extends PathfinderMob implements IEntityWithComple
 		if (!foundBed) {
 			return false;
 		}
-		if (level().isLoaded(pos) && level().getBlockState(pos).getBlock() instanceof BedBlock) {
+		if (level().isLoaded(pos) && isUsableBed(level().getBlockState(pos))) {
 			BlockState state = level().getBlockState(pos);
 			if (state.getValue(BedBlock.OCCUPIED)) {
 				// occupied check
@@ -1252,7 +1252,7 @@ public abstract class NpcBase extends PathfinderMob implements IEntityWithComple
 		BlockPos bedPos = getBedPosition();
 		// set vacant
 		BlockState bedState = level().getBlockState(bedPos);
-		if (bedState.getBlock() instanceof BedBlock) {
+		if (isUsableBed(bedState)) {
 			level().setBlock(bedPos, bedState.setValue(BedBlock.OCCUPIED, false), 4);
 		}
 
@@ -1349,7 +1349,7 @@ public abstract class NpcBase extends PathfinderMob implements IEntityWithComple
 	}
 
 	public boolean isBedCacheValid() {
-		return (level().getBlockState(cachedBedPos).getBlock() instanceof BedBlock);
+		return (isUsableBed(level().getBlockState(cachedBedPos)));
 	}
 
 	@Override
@@ -1397,12 +1397,31 @@ public abstract class NpcBase extends PathfinderMob implements IEntityWithComple
 		return !WorldTools.isDaytimeInDimension(level());
 	}
 
+	/*
+	 * a bed of another mod (sleeping bag, hammock, bunk) can extend BedBlock with
+	 * its own state definition; reading PART, OCCUPIED or FACING from it threw IllegalArgumentException in the NPC's
+	 * tick. Such a block is not a bed for NPCs.
+	 */
+	static boolean isUsableBed(BlockState state) {
+		return state.getBlock() instanceof BedBlock && state.hasProperty(BedBlock.PART) && state.hasProperty(BedBlock.OCCUPIED) && state.hasProperty(BedBlock.FACING);
+	}
+
 	// Only used by the renderer
 	public float getBedOrientationInDegrees() {
 		BlockPos bedLocation = getBedPosition();
 		BlockState state = bedLocation == null ? null : level().getBlockState(bedLocation);
 		if (state != null && state.isBed(level(), bedLocation, this)) {
-			Direction enumfacing = state.getBedDirection(level(), bedLocation);
+			Direction enumfacing;
+			try {
+				enumfacing = state.getBedDirection(level(), bedLocation);
+			}
+			catch (RuntimeException e) {
+				//a mod block that says it is a bed but has no FACING; drawn facing south
+				return 0.0F;
+			}
+			if (enumfacing == null) {
+				return 0.0F;
+			}
 
 			switch (enumfacing) {
 				case SOUTH:

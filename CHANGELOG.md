@@ -1,5 +1,23 @@
 # Changelog
 
+## 2.7.0-reforged.1.0.1 (2026-11-24)
+
+Crash fixes for mod packs. No packet, registry id or save format changed: 1.0.0 worlds load as before, and a world
+saved by 1.0.1 still opens in 1.0.0.
+- Fixed: the crop farm crashed the server when it fertilized Farmer's Delight tomato vines (issue 4). After bone
+  meal the farm checked the new block with the old block's state.
+- Fixed: incompatible blocks in farms and other worksites no longer crash the server. They are ignored for
+  5 minutes, retried, and then ignored again. The server log names the bad block the first time, and compatible
+  blocks work as normal. The same goes for other mods' animals in the animal farm and fishing loot in the fish farm.
+- Fixed: an auto crafting station no longer crashes the server when another mod's recipe fails. It rests for
+  5 minutes and tries again.
+- Fixed: a siege shot no longer crashes the server when the block it breaks fails. The block is left standing.
+- Fixed: NPCs looking for a bed no longer crash the server on mod beds that lack the vanilla bed properties. Such
+  beds are ignored.
+- Fixed: mod food with unusual food code no longer crashes the server when an NPC checks it. It does not count as
+  food for NPCs.
+- Fixed: a sleeping NPC on another mod's bed-like block no longer crashes the client.
+
 ## 2.7.0-reforged.1.0.0 (2026-11-17)
 
 First release (release candidates rc.1 and rc.2 were tested on the owner's instances).

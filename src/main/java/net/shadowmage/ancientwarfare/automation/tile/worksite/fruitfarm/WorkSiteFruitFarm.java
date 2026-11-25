@@ -95,8 +95,8 @@ public class WorkSiteFruitFarm extends TileWorksiteFarm {
 		BlockPos pos = it.next();
 		it.remove();
 
-		BlockState state = level.getBlockState(pos);
-		return state.getBlock() instanceof BonemealableBlock && fertilize(pos);
+		//guarded calls into the fruit block's own code
+		return foreignBlocks.run(level, pos, "fertilizing", () -> level.getBlockState(pos).getBlock() instanceof BonemealableBlock && fertilize(pos));
 	}
 
 	private boolean plantFruits() {
@@ -107,10 +107,11 @@ public class WorkSiteFruitFarm extends TileWorksiteFarm {
 		Iterator<BlockPos> it = blocksToPlant.iterator();
 		BlockPos plantPos = it.next();
 		it.remove();
-		Optional<IFruit> plantableFruit = InventoryTools.stream(plantableInventory).map(FruitFarmRegistry::getPlantable)
-				.filter(p -> p.canPlant(level, plantPos, level.getBlockState(plantPos))).findFirst();
-
-		return plantableFruit.isPresent() && plantableFruit.get().plant(level, plantPos);
+		return foreignBlocks.run(level, plantPos, "planting", () -> {
+			Optional<IFruit> plantableFruit = InventoryTools.stream(plantableInventory).map(FruitFarmRegistry::getPlantable)
+					.filter(p -> p.canPlant(level, plantPos, level.getBlockState(plantPos))).findFirst();
+			return plantableFruit.isPresent() && plantableFruit.get().plant(level, plantPos);
+		});
 	}
 
 	private boolean pickFruits() {
@@ -121,10 +122,11 @@ public class WorkSiteFruitFarm extends TileWorksiteFarm {
 		Iterator<BlockPos> it = blocksToPick.iterator();
 		BlockPos pickPos = it.next();
 		it.remove();
-		BlockState state = level.getBlockState(pickPos);
-		IFruit pickable = FruitFarmRegistry.getPickable(state);
-
-		return pickable.pick(level, state, pickPos, getFortune(), inventoryForDrops);
+		return foreignBlocks.run(level, pickPos, "picking", () -> {
+			BlockState state = level.getBlockState(pickPos);
+			IFruit pickable = FruitFarmRegistry.getPickable(state);
+			return pickable.pick(level, state, pickPos, getFortune(), inventoryForDrops);
+		});
 	}
 
 	private static final IWorksiteAction PICK_ACTION = WorksiteImplementation::getEnergyPerActivation;
